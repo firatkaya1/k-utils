@@ -13,15 +13,15 @@
         Kopyalandı.
     </div>
     <div class="container mx-auto mt-12 mb-48">
-        <div class="flex flex-row">
-            <div class="flex flex-col w-2/12 h-screen border-r mr-4">
+        <div class="flex flex-row  justify-between">
+            <div class="flex flex-col w-2/12 h-screen border-r mr-4  bg-white">
                 <h1 class="font-semibold text-xl">K-utils</h1>
                 <a href="" class="px-4 py-2 text-black font-medium font-mono hover:text-gray-500 hover:underline transition duration-300">Başlarken</a>
                 <a href="" class="px-4 py-2 text-black font-medium font-mono hover:text-gray-500 hover:underline transition duration-300">Alerts</a>
                 <a href="" class="px-4 py-2 text-black font-medium font-mono hover:text-gray-500 hover:underline transition duration-300">Buttons</a>
                 <a href="" class="px-4 py-2 text-black font-medium font-mono hover:text-gray-500 hover:underline transition duration-300">Cards</a>
             </div>
-            <div class="flex flex-col w-10/12 h-full">
+            <div class="flex flex-col w-10/12 h-full ">
                 <!--Başlarken-->
                 <div class="flex flex-col" id="start">
                     <h1 class="text-2xl font-bold text-blue-600 cursor-pointer">Başlarken</h1>
@@ -1368,642 +1368,1257 @@
                        </div>
                    </div>
                </div>
-               <!-- Card 1-->
-        <div class="flex flex-row justify-center">
-            <!-- Card 1-->
-            <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg mt-4 ml-8 my-12">
-                <!-- Top -->
-                <div class="flex flex-row justify-center h-24 border-b">
-                    <!-- Info -->
-                    <div class="flex flex-col w-3/4 h-full p-4">
-                        <div class="flex font-bold text-base text-gray-700 text-left">
-                            Fırat Kaya
-                            <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
+               <!--Cards-->
+                <div class="flex flex-col">
+                    <!-- Card 1-->
+                <div class="flex flex-row justify-center">
+                    <!-- Card 1-->
+                    <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg mt-4 ml-8 my-12">
+                        <!-- Top -->
+                        <div class="flex flex-row justify-center h-24 border-b">
+                            <!-- Info -->
+                            <div class="flex flex-col w-3/4 h-full p-4">
+                                <div class="flex font-bold text-base text-gray-700 text-left">
+                                    Fırat Kaya
+                                    <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
+                                        Admin
+                                    </div>
+                                </div>
+                                <div class="font-light text-sm text-gray-500 text-left mt-1">
+                                    Junior Software Developer
+                                </div>
+                            </div>
+                            <!-- Image -->
+                            <div class="p-4">
+                                <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
+                            </div>
+                        </div>
+                        <!-- Bottom -->
+                        <div class="flex flex-row h-12 w-full">
+                            <!-- Send Mail -->
+                            <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Email
+                                </div>
+                            </button>
+                            <!-- Call Button -->
+                            <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Call
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Cards 1-->
+                <div class="flex flex-row flex-wrap space-x-8 space-y-4 justify-center">
+                    <!-- Card -->
+                    <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg mt-4 ml-8">
+                        <!-- Top -->
+                        <div class="flex flex-row justify-center h-24 border-b">
+                            <!-- Info -->
+                            <div class="flex flex-col w-3/4 h-full p-4">
+                                <div class="flex font-bold text-base text-gray-700 text-left">
+                                    Fırat Kaya
+                                    <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
+                                        Admin
+                                    </div>
+                                </div>
+                                <div class="font-light text-sm text-gray-500 text-left mt-1">
+                                    Junior Software Developer
+                                </div>
+                            </div>
+                            <!-- Image -->
+                            <div class="p-4">
+                                <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
+                            </div>
+                        </div>
+                        <!-- Bottom -->
+                        <div class="flex flex-row h-12 w-full">
+                            <!-- Send Mail -->
+                            <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Email
+                                </div>
+                            </button>
+                            <!-- Call Button -->
+                            <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Call
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg">
+                        <!-- Top -->
+                        <div class="flex flex-row justify-center h-24 border-b">
+                            <!-- Info -->
+                            <div class="flex flex-col w-3/4 h-full p-4">
+                                <div class="flex font-bold text-base text-gray-700 text-left">
+                                    Fırat Kaya
+                                    <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
+                                        Admin
+                                    </div>
+                                </div>
+                                <div class="font-light text-sm text-gray-500 text-left mt-1">
+                                    Junior Software Developer
+                                </div>
+                            </div>
+                            <!-- Image -->
+                            <div class="p-4">
+                                <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
+                            </div>
+                        </div>
+                        <!-- Bottom -->
+                        <div class="flex flex-row h-12 w-full">
+                            <!-- Send Mail -->
+                            <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Email
+                                </div>
+                            </button>
+                            <!-- Call Button -->
+                            <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Call
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg">
+                        <!-- Top -->
+                        <div class="flex flex-row justify-center h-24 border-b">
+                            <!-- Info -->
+                            <div class="flex flex-col w-3/4 h-full p-4">
+                                <div class="flex font-bold text-base text-gray-700 text-left">
+                                    Fırat Kaya
+                                    <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
+                                        Admin
+                                    </div>
+                                </div>
+                                <div class="font-light text-sm text-gray-500 text-left mt-1">
+                                    Junior Software Developer
+                                </div>
+                            </div>
+                            <!-- Image -->
+                            <div class="p-4">
+                                <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
+                            </div>
+                        </div>
+                        <!-- Bottom -->
+                        <div class="flex flex-row h-12 w-full">
+                            <!-- Send Mail -->
+                            <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Email
+                                </div>
+                            </button>
+                            <!-- Call Button -->
+                            <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Call
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg">
+                        <!-- Top -->
+                        <div class="flex flex-row justify-center h-24 border-b">
+                            <!-- Info -->
+                            <div class="flex flex-col w-3/4 h-full p-4">
+                                <div class="flex font-bold text-base text-gray-700 text-left">
+                                    Fırat Kaya
+                                    <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
+                                        Admin
+                                    </div>
+                                </div>
+                                <div class="font-light text-sm text-gray-500 text-left mt-1">
+                                    Junior Software Developer
+                                </div>
+                            </div>
+                            <!-- Image -->
+                            <div class="p-4">
+                                <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
+                            </div>
+                        </div>
+                        <!-- Bottom -->
+                        <div class="flex flex-row h-12 w-full">
+                            <!-- Send Mail -->
+                            <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Email
+                                </div>
+                            </button>
+                            <!-- Call Button -->
+                            <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Call
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg">
+                        <!-- Top -->
+                        <div class="flex flex-row justify-center h-24 border-b">
+                            <!-- Info -->
+                            <div class="flex flex-col w-3/4 h-full p-4">
+                                <div class="flex font-bold text-base text-gray-700 text-left">
+                                    Fırat Kaya
+                                    <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
+                                        Admin
+                                    </div>
+                                </div>
+                                <div class="font-light text-sm text-gray-500 text-left mt-1">
+                                    Junior Software Developer
+                                </div>
+                            </div>
+                            <!-- Image -->
+                            <div class="p-4">
+                                <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
+                            </div>
+                        </div>
+                        <!-- Bottom -->
+                        <div class="flex flex-row h-12 w-full">
+                            <!-- Send Mail -->
+                            <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Email
+                                </div>
+                            </button>
+                            <!-- Call Button -->
+                            <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Call
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg">
+                        <!-- Top -->
+                        <div class="flex flex-row justify-center h-24 border-b">
+                            <!-- Info -->
+                            <div class="flex flex-col w-3/4 h-full p-4">
+                                <div class="flex font-bold text-base text-gray-700 text-left">
+                                    Fırat Kaya
+                                    <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
+                                        Admin
+                                    </div>
+                                </div>
+                                <div class="font-light text-sm text-gray-500 text-left mt-1">
+                                    Junior Software Developer
+                                </div>
+                            </div>
+                            <!-- Image -->
+                            <div class="p-4">
+                                <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
+                            </div>
+                        </div>
+                        <!-- Bottom -->
+                        <div class="flex flex-row h-12 w-full">
+                            <!-- Send Mail -->
+                            <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Email
+                                </div>
+                            </button>
+                            <!-- Call Button -->
+                            <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Call
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 2-->
+                <div class="flex flex-row mt-24 justify-center">
+                    <div class="flex flex-col w-72 h-80 border shadow rounded-lg text-center ">
+                        <img src="images/person1.jpeg" class="w-1/3 rounded-full mx-auto mt-8" alt="">
+                        <h1 class="font-bold text-gray-600 mt-6">Fırat Kaya</h1>
+                        <p class="font-light text-sm text-gray-500 my-2">Junior Software Developer</p>
+                        <div class="w-16 inline bg-green-100 font-bold text-xs mx-auto rounded-full px-2 py-0.5 mt-2">
+                            Admin
+                        </div>
+                        <!-- Bottom -->
+                        <div class="flex flex-row h-12 w-full mt-auto border-t">
+                            <!-- Send Mail -->
+                            <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Email
+                                </div>
+                            </button>
+                            <!-- Call Button -->
+                            <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <div class="my-auto ml-2 text-sm font-bold ">
+                                    Call
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards 2 -->
+                <div class="flex flex-row flex-wrap space-x-6 justify-center mb-24">
+                    <!-- Cards 2 -->
+                    <div class="flex flex-row mt-12 justify-center ">
+                        <div class="flex flex-col w-72 h-80 border shadow rounded-lg text-center ">
+                            <img src="images/person1.jpeg" class="w-1/3 rounded-full mx-auto mt-8" alt="">
+                            <h1 class="font-bold text-gray-600 mt-6">Fırat Kaya</h1>
+                            <p class="font-light text-sm text-gray-500 my-2">Junior Software Developer</p>
+                            <div class="w-16 inline bg-green-100 font-bold text-xs mx-auto rounded-full px-2 py-0.5 mt-2">
                                 Admin
                             </div>
+                            <!-- Bottom -->
+                            <div class="flex flex-row h-12 w-full mt-auto border-t">
+                                <!-- Send Mail -->
+                                <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                    </svg>
+                                    <div class="my-auto ml-2 text-sm font-bold ">
+                                        Email
+                                    </div>
+                                </button>
+                                <!-- Call Button -->
+                                <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                    </svg>
+                                    <div class="my-auto ml-2 text-sm font-bold ">
+                                        Call
+                                    </div>
+                                </button>
+                            </div>
                         </div>
-                        <div class="font-light text-sm text-gray-500 text-left mt-1">
-                            Junior Software Developer
-                        </div>
+                        
                     </div>
-                    <!-- Image -->
-                    <div class="p-4">
-                        <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
-                    </div>
-                </div>
-                <!-- Bottom -->
-                <div class="flex flex-row h-12 w-full">
-                    <!-- Send Mail -->
-                    <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Email
-                        </div>
-                    </button>
-                    <!-- Call Button -->
-                    <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Call
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Cards 1-->
-        <div class="flex flex-row flex-wrap space-x-8 space-y-4 justify-center">
-            <!-- Card -->
-            <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg mt-4 ml-8">
-                <!-- Top -->
-                <div class="flex flex-row justify-center h-24 border-b">
-                    <!-- Info -->
-                    <div class="flex flex-col w-3/4 h-full p-4">
-                        <div class="flex font-bold text-base text-gray-700 text-left">
-                            Fırat Kaya
-                            <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
+                    <div class="flex flex-row mt-12 justify-center">
+                        <div class="flex flex-col w-72 h-80 border shadow rounded-lg text-center ">
+                            <img src="images/person1.jpeg" class="w-1/3 rounded-full mx-auto mt-8" alt="">
+                            <h1 class="font-bold text-gray-600 mt-6">Fırat Kaya</h1>
+                            <p class="font-light text-sm text-gray-500 my-2">Junior Software Developer</p>
+                            <div class="w-16 inline bg-green-100 font-bold text-xs mx-auto rounded-full px-2 py-0.5 mt-2">
                                 Admin
                             </div>
+                            <!-- Bottom -->
+                            <div class="flex flex-row h-12 w-full mt-auto border-t">
+                                <!-- Send Mail -->
+                                <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                    </svg>
+                                    <div class="my-auto ml-2 text-sm font-bold ">
+                                        Email
+                                    </div>
+                                </button>
+                                <!-- Call Button -->
+                                <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                    </svg>
+                                    <div class="my-auto ml-2 text-sm font-bold ">
+                                        Call
+                                    </div>
+                                </button>
+                            </div>
                         </div>
-                        <div class="font-light text-sm text-gray-500 text-left mt-1">
-                            Junior Software Developer
-                        </div>
+                        
                     </div>
-                    <!-- Image -->
-                    <div class="p-4">
-                        <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
-                    </div>
-                </div>
-                <!-- Bottom -->
-                <div class="flex flex-row h-12 w-full">
-                    <!-- Send Mail -->
-                    <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Email
-                        </div>
-                    </button>
-                    <!-- Call Button -->
-                    <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Call
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card -->
-            <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg">
-                <!-- Top -->
-                <div class="flex flex-row justify-center h-24 border-b">
-                    <!-- Info -->
-                    <div class="flex flex-col w-3/4 h-full p-4">
-                        <div class="flex font-bold text-base text-gray-700 text-left">
-                            Fırat Kaya
-                            <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
+                    <div class="flex flex-row mt-12 justify-center ">
+                        <div class="flex flex-col w-72 h-80 border shadow rounded-lg text-center ">
+                            <img src="images/person1.jpeg" class="w-1/3 rounded-full mx-auto mt-8" alt="">
+                            <h1 class="font-bold text-gray-600 mt-6">Fırat Kaya</h1>
+                            <p class="font-light text-sm text-gray-500 my-2">Junior Software Developer</p>
+                            <div class="w-16 inline bg-green-100 font-bold text-xs mx-auto rounded-full px-2 py-0.5 mt-2">
                                 Admin
                             </div>
+                            <!-- Bottom -->
+                            <div class="flex flex-row h-12 w-full mt-auto border-t">
+                                <!-- Send Mail -->
+                                <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                    </svg>
+                                    <div class="my-auto ml-2 text-sm font-bold ">
+                                        Email
+                                    </div>
+                                </button>
+                                <!-- Call Button -->
+                                <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                    </svg>
+                                    <div class="my-auto ml-2 text-sm font-bold ">
+                                        Call
+                                    </div>
+                                </button>
+                            </div>
                         </div>
-                        <div class="font-light text-sm text-gray-500 text-left mt-1">
-                            Junior Software Developer
-                        </div>
+                        
                     </div>
-                    <!-- Image -->
-                    <div class="p-4">
-                        <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
-                    </div>
-                </div>
-                <!-- Bottom -->
-                <div class="flex flex-row h-12 w-full">
-                    <!-- Send Mail -->
-                    <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Email
-                        </div>
-                    </button>
-                    <!-- Call Button -->
-                    <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Call
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card -->
-            <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg">
-                <!-- Top -->
-                <div class="flex flex-row justify-center h-24 border-b">
-                    <!-- Info -->
-                    <div class="flex flex-col w-3/4 h-full p-4">
-                        <div class="flex font-bold text-base text-gray-700 text-left">
-                            Fırat Kaya
-                            <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
+                    <div class="flex flex-row mt-12 justify-center">
+                        <div class="flex flex-col w-72 h-80 border shadow rounded-lg text-center ">
+                            <img src="images/person1.jpeg" class="w-1/3 rounded-full mx-auto mt-8" alt="">
+                            <h1 class="font-bold text-gray-600 mt-6">Fırat Kaya</h1>
+                            <p class="font-light text-sm text-gray-500 my-2">Junior Software Developer</p>
+                            <div class="w-16 inline bg-green-100 font-bold text-xs mx-auto rounded-full px-2 py-0.5 mt-2">
                                 Admin
                             </div>
+                            <!-- Bottom -->
+                            <div class="flex flex-row h-12 w-full mt-auto border-t">
+                                <!-- Send Mail -->
+                                <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                                    </svg>
+                                    <div class="my-auto ml-2 text-sm font-bold ">
+                                        Email
+                                    </div>
+                                </button>
+                                <!-- Call Button -->
+                                <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                    </svg>
+                                    <div class="my-auto ml-2 text-sm font-bold ">
+                                        Call
+                                    </div>
+                                </button>
+                            </div>
                         </div>
-                        <div class="font-light text-sm text-gray-500 text-left mt-1">
-                            Junior Software Developer
-                        </div>
-                    </div>
-                    <!-- Image -->
-                    <div class="p-4">
-                        <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
-                    </div>
-                </div>
-                <!-- Bottom -->
-                <div class="flex flex-row h-12 w-full">
-                    <!-- Send Mail -->
-                    <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Email
-                        </div>
-                    </button>
-                    <!-- Call Button -->
-                    <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Call
-                        </div>
+                        
                     </div>
                 </div>
-            </div>
+                <!-- Card 3 -->
+                <div class="flex justify-center">
+                    <div class="flex flex-row w-72 h-16 justify-center border rounded-lg ">
+                        <div class="flex flex-row w-1/5 bg-red-500 justify-center rounded-tl-md rounded-bl-md ">
+                            <div class="my-auto text-white font-mono text-lg">FK</div>
+                        </div>
+                        <div class="flex flex-col w-3/5 p-2 my-auto">
+                            <h1 class="text-base text-gray-600 font-bold">Fırat Kaya</h1>
+                            <p class="text-sm whitespace-nowrap	 mt-1 text-gray-600 font-light">Junior Software Engineer</p>
+                        </div>
+                        <div class="flex flex-row w-1/5 justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 my-auto cursor-pointer hover:text-gray-700 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards 3 -->
+                <div class="flex flex-row flex-wrap space-x-4 justify-center my-12">
+                    <!-- Cards 3 -->
+                    <div class="flex flex-row w-72 h-16 justify-center border rounded-lg ">
+                        <div class="flex flex-row w-1/5 bg-green-500 justify-center rounded-tl-md rounded-bl-md ">
+                            <div class="my-auto text-white font-mono text-lg">FK</div>
+                        </div>
+                        <div class="flex flex-col w-3/5 p-2 my-auto">
+                            <h1 class="text-base text-gray-600 font-bold">Fırat Kaya</h1>
+                            <p class="text-sm whitespace-nowrap	 mt-1 text-gray-600 font-light">Junior Software Engineer</p>
+                        </div>
+                        <div class="flex flex-row w-1/5 justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 my-auto cursor-pointer hover:text-gray-700 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Cards 3 -->
+                    <div class="flex flex-row w-72 h-16 justify-center border rounded-lg ">
+                        <div class="flex flex-row w-1/5 bg-yellow-500 justify-center rounded-tl-md rounded-bl-md ">
+                            <div class="my-auto text-white font-mono text-lg">FK</div>
+                        </div>
+                        <div class="flex flex-col w-3/5 p-2 my-auto">
+                            <h1 class="text-base text-gray-600 font-bold">Fırat Kaya</h1>
+                            <p class="text-sm whitespace-nowrap	 mt-1 text-gray-600 font-light">Junior Software Engineer</p>
+                        </div>
+                        <div class="flex flex-row w-1/5 justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 my-auto cursor-pointer hover:text-gray-700 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Cards 3 -->
+                    <div class="flex flex-row w-72 h-16 justify-center border rounded-lg ">
+                        <div class="flex flex-row w-1/5 bg-blue-500 justify-center rounded-tl-md rounded-bl-md ">
+                            <div class="my-auto text-white font-mono text-lg">FK</div>
+                        </div>
+                        <div class="flex flex-col w-3/5 p-2 my-auto">
+                            <h1 class="text-base text-gray-600 font-bold">Fırat Kaya</h1>
+                            <p class="text-sm whitespace-nowrap	 mt-1 text-gray-600 font-light">Junior Software Engineer</p>
+                        </div>
+                        <div class="flex flex-row w-1/5 justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 my-auto cursor-pointer hover:text-gray-700 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Cards 3 -->
+                    <div class="flex flex-row w-72 h-16 justify-center border rounded-lg ">
+                        <div class="flex flex-row w-1/5 bg-indigo-500 justify-center rounded-tl-md rounded-bl-md ">
+                            <div class="my-auto text-white font-mono text-lg">FK</div>
+                        </div>
+                        <div class="flex flex-col w-3/5 p-2 my-auto">
+                            <h1 class="text-base text-gray-600 font-bold">Fırat Kaya</h1>
+                            <p class="text-sm whitespace-nowrap	 mt-1 text-gray-600 font-light">Junior Software Engineer</p>
+                        </div>
+                        <div class="flex flex-row w-1/5 justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 my-auto cursor-pointer hover:text-gray-700 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="flex justify-center my-24">
+                    <div class="flex flex-col w-72 h-auto border rounded-lg shadow">
+                        <img src="images/person1.jpeg" class="h-48 rounded-tr-lg rounded-tl-lg" alt="">
+                        <h1 class="font-bold px-4 mt-4 text-lg">Card Title</h1>
+                        <div class="p-4 mb-4 text-justify text-sm">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatum maxime dolores sunt quo totam iure error enim vitae officiis, maiores quia, ducimus debitis fuga optio molestias eligendi quas culpa!
+                        </div>
+                        <button class="px-3 py-1.5 bg-blue-500 text-sm w-24 ml-4 mt-auto my-6 no-underline select-none text-center leading-6	font-normal	align-middle rounded-md text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
+                            Submit-sm
+                        </button>
+                    </div>
+                </div>
 
-            <!-- Card -->
-            <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg">
-                <!-- Top -->
-                <div class="flex flex-row justify-center h-24 border-b">
-                    <!-- Info -->
-                    <div class="flex flex-col w-3/4 h-full p-4">
-                        <div class="flex font-bold text-base text-gray-700 text-left">
-                            Fırat Kaya
-                            <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
-                                Admin
+                <!-- Cards 4 -->
+                <div class="flex flex-row flex-wrap space-x-4 justify-center my-24">
+                    <!-- Cards 4 -->
+                    <div class="flex justify-center">
+                        <div class="flex flex-col w-72 h-auto border rounded-lg shadow">
+                            <img src="images/person1.jpeg" class="h-48 rounded-tr-lg rounded-tl-lg" alt="">
+                            <h1 class="font-bold px-4 mt-4 text-lg">Card Title</h1>
+                            <div class="p-4 mb-4 text-justify text-sm">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatum maxime dolores sunt quo totam iure error enim vitae officiis, maiores quia, ducimus debitis fuga optio molestias eligendi quas culpa!
                             </div>
-                        </div>
-                        <div class="font-light text-sm text-gray-500 text-left mt-1">
-                            Junior Software Developer
-                        </div>
-                    </div>
-                    <!-- Image -->
-                    <div class="p-4">
-                        <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
-                    </div>
-                </div>
-                <!-- Bottom -->
-                <div class="flex flex-row h-12 w-full">
-                    <!-- Send Mail -->
-                    <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Email
-                        </div>
-                    </button>
-                    <!-- Call Button -->
-                    <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Call
+                            <button class="px-3 py-1.5 bg-blue-500 text-sm w-24 ml-4 mt-auto my-6 no-underline select-none text-center leading-6	font-normal	align-middle rounded-md text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
+                                Submit-sm
+                            </button>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Card -->
-            <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg">
-                <!-- Top -->
-                <div class="flex flex-row justify-center h-24 border-b">
-                    <!-- Info -->
-                    <div class="flex flex-col w-3/4 h-full p-4">
-                        <div class="flex font-bold text-base text-gray-700 text-left">
-                            Fırat Kaya
-                            <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
-                                Admin
+                    <div class="flex justify-center">
+                        <div class="flex flex-col w-72 h-auto border rounded-lg shadow">
+                            <img src="images/person1.jpeg" class="h-48 rounded-tr-lg rounded-tl-lg" alt="">
+                            <h1 class="font-bold px-4 mt-4 text-lg">Card Title</h1>
+                            <div class="p-4 mb-4 text-justify text-sm">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatum maxime dolores sunt quo totam iure error enim vitae officiis, maiores quia, ducimus debitis fuga optio molestias eligendi quas culpa!
                             </div>
-                        </div>
-                        <div class="font-light text-sm text-gray-500 text-left mt-1">
-                            Junior Software Developer
-                        </div>
-                    </div>
-                    <!-- Image -->
-                    <div class="p-4">
-                        <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
-                    </div>
-                </div>
-                <!-- Bottom -->
-                <div class="flex flex-row h-12 w-full">
-                    <!-- Send Mail -->
-                    <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Email
-                        </div>
-                    </button>
-                    <!-- Call Button -->
-                    <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Call
+                            <button class="px-3 py-1.5 bg-blue-500 text-sm w-24 ml-4 mt-auto my-6 no-underline select-none text-center leading-6	font-normal	align-middle rounded-md text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
+                                Submit-sm
+                            </button>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Card -->
-            <div class="flex flex-col w-96 h-36 shadow-lg border rounded-lg">
-                <!-- Top -->
-                <div class="flex flex-row justify-center h-24 border-b">
-                    <!-- Info -->
-                    <div class="flex flex-col w-3/4 h-full p-4">
-                        <div class="flex font-bold text-base text-gray-700 text-left">
-                            Fırat Kaya
-                            <div class="w-auto bg-green-100 font-bold text-xs rounded-full ml-2 text-center my-auto px-2 py-0.5">
-                                Admin
+                    <div class="flex justify-center">
+                        <div class="flex flex-col w-72 h-auto border rounded-lg shadow">
+                            <img src="images/person1.jpeg" class="h-48 rounded-tr-lg rounded-tl-lg" alt="">
+                            <h1 class="font-bold px-4 mt-4 text-lg">Card Title</h1>
+                            <div class="p-4 mb-4 text-justify text-sm">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatum maxime dolores sunt quo totam iure error enim vitae officiis, maiores quia, ducimus debitis fuga optio molestias eligendi quas culpa!
                             </div>
-                        </div>
-                        <div class="font-light text-sm text-gray-500 text-left mt-1">
-                            Junior Software Developer
-                        </div>
-                    </div>
-                    <!-- Image -->
-                    <div class="p-4">
-                        <img src="images/person1.jpeg" class="w-12 h-12 rounded-full" alt="">
-                    </div>
-                </div>
-                <!-- Bottom -->
-                <div class="flex flex-row h-12 w-full">
-                    <!-- Send Mail -->
-                    <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Email
-                        </div>
-                    </button>
-                    <!-- Call Button -->
-                    <div class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Call
+                            <button class="px-3 py-1.5 bg-blue-500 text-sm w-24 ml-4 mt-auto my-6 no-underline select-none text-center leading-6	font-normal	align-middle rounded-md text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
+                                Submit-sm
+                            </button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!--Card 2-->
-        <div class="flex flex-row mt-24 justify-center">
-            <div class="flex flex-col w-72 h-80 border shadow rounded-lg text-center ">
-                <img src="images/person1.jpeg" class="w-1/3 rounded-full mx-auto mt-8" alt="">
-                <h1 class="font-bold text-gray-600 mt-6">Fırat Kaya</h1>
-                <p class="font-light text-sm text-gray-500 my-2">Junior Software Developer</p>
-                <div class="w-16 inline bg-green-100 font-bold text-xs mx-auto rounded-full px-2 py-0.5 mt-2">
-                    Admin
-                </div>
-                <!-- Bottom -->
-                <div class="flex flex-row h-12 w-full mt-auto border-t">
-                    <!-- Send Mail -->
-                    <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Email
-                        </div>
-                    </button>
-                    <!-- Call Button -->
-                    <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                        <div class="my-auto ml-2 text-sm font-bold ">
-                            Call
-                        </div>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- Cards 2 -->
-        <div class="flex flex-row flex-wrap space-x-6 justify-center mb-24">
-            <!-- Cards 2 -->
-            <div class="flex flex-row mt-12 justify-center ">
-                <div class="flex flex-col w-72 h-80 border shadow rounded-lg text-center ">
-                    <img src="images/person1.jpeg" class="w-1/3 rounded-full mx-auto mt-8" alt="">
-                    <h1 class="font-bold text-gray-600 mt-6">Fırat Kaya</h1>
-                    <p class="font-light text-sm text-gray-500 my-2">Junior Software Developer</p>
-                    <div class="w-16 inline bg-green-100 font-bold text-xs mx-auto rounded-full px-2 py-0.5 mt-2">
-                        Admin
-                    </div>
-                    <!-- Bottom -->
-                    <div class="flex flex-row h-12 w-full mt-auto border-t">
-                        <!-- Send Mail -->
-                        <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                            </svg>
-                            <div class="my-auto ml-2 text-sm font-bold ">
-                                Email
+                    <div class="flex justify-center">
+                        <div class="flex flex-col w-72 h-auto border rounded-lg shadow">
+                            <img src="images/person1.jpeg" class="h-48 rounded-tr-lg rounded-tl-lg" alt="">
+                            <h1 class="font-bold px-4 mt-4 text-lg">Card Title</h1>
+                            <div class="p-4 mb-4 text-justify text-sm">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatum maxime dolores sunt quo totam iure error enim vitae officiis, maiores quia, ducimus debitis fuga optio molestias eligendi quas culpa!
                             </div>
-                        </button>
-                        <!-- Call Button -->
-                        <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                            </svg>
-                            <div class="my-auto ml-2 text-sm font-bold ">
-                                Call
-                            </div>
+                            <button class="px-3 py-1.5 bg-blue-500 text-sm w-24 ml-4 mt-auto my-6 no-underline select-none text-center leading-6	font-normal	align-middle rounded-md text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
+                                Submit-sm
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="flex justify-center my-48">
+                    <div class="flex flex-col h-48 border rounded" style="width: 48rem;">
+                        <div class="bg-gray-100 px-4 py-2 border-b ">
+                            <h1 class="font-bold text-lg">Featured</h1>
+                        </div>
+                        <h1 class="px-4 py-2 font-bold text-lg">Special title treatment</h1>
+                        <p class="px-4 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <button class="px-4 py-2 bg-blue-500 text-base w-36 mt-4 ml-4 no-underline select-none text-center leading-6 font-normal align-middle rounded-md  text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
+                            Submit-md
                         </button>
                     </div>
                 </div>
-                
-            </div>
-            <div class="flex flex-row mt-12 justify-center">
-                <div class="flex flex-col w-72 h-80 border shadow rounded-lg text-center ">
-                    <img src="images/person1.jpeg" class="w-1/3 rounded-full mx-auto mt-8" alt="">
-                    <h1 class="font-bold text-gray-600 mt-6">Fırat Kaya</h1>
-                    <p class="font-light text-sm text-gray-500 my-2">Junior Software Developer</p>
-                    <div class="w-16 inline bg-green-100 font-bold text-xs mx-auto rounded-full px-2 py-0.5 mt-2">
-                        Admin
+                </div>
+                <!--Borders-->
+                <div class="flex flex-col space-y-6">
+                    <!-- Active element : shadow text-blue-600 bg-gray-100-->
+                    <span class="font-bold text-lg">Border Previous-Next</span>
+                    <nav class="block">
+                        <ul class="flex justify-center">
+                            <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                            <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                            <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                            <li class="px-4 py-2 border text-blue-600 text-blue-400 bg-gray-100 hover:bg-gray-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                            <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                            <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                            <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="block">
+                        <ul class="flex justify-center font-medium">
+                            <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-blue-500 bg-white hover:text-blue-600 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">1</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white cursor-pointer hover:text-blue-500"><a href="#">2</a></li>
+                            <li class="px-4 py-2 border border-blue-600 cursor-pointer text-blue-500"><a href="#">3</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">4</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">5</a></li>
+                            <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-blue-500 bg-white hover:text-blue-600 transition duration-300 cursor-pointer"><a href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                    <span class="font-bold text-lg">Border Up</span>
+                    <nav class="block">
+                        <ul class="flex justify-center">
+                            <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                            <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                            <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                            <li class="px-4 py-2 border text-blue-600 text-blue-400 bg-gray-100 hover:bg-gray-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                            <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                            <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                            <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-blue-600 hover:text-blue-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                        </ul>
+                    </nav>
+                    <nav class="block">
+                        <ul class="flex justify-center font-medium">
+                            <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-blue-500 bg-white hover:text-blue-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">1</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white cursor-pointer hover:text-blue-500"><a href="#">2</a></li>
+                            <li class="px-4 py-2 border border-blue-600 cursor-pointer text-blue-500"><a href="#">3</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">4</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">5</a></li>
+                            <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-blue-500 bg-white hover:text-blue-600 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                        </ul>
+                    </nav>
+                    <span class="font-bold text-lg">Border With Colors</span>
+                    <div class="flex flex-wrap space-y-4 space-x-4 ">
+                        <nav class="block mt-4 ml-4">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-gray-500 bg-white hover:text-gray-600 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border hover:border-gray-500 bg-white hover:text-gray-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-gray-500 bg-white cursor-pointer hover:text-gray-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-gray-600 cursor-pointer text-gray-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-gray-500 bg-white hover:text-gray-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-gray-500 bg-white hover:text-gray-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-gray-500 bg-white hover:text-gray-600 transition duration-300 cursor-pointer"><a href="#">Next </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-red-500 bg-white hover:text-red-600 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border hover:border-red-500 bg-white hover:text-red-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-red-500 bg-white cursor-pointer hover:text-red-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-red-600 cursor-pointer text-red-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-red-500 bg-white hover:text-red-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-red-500 bg-white hover:text-red-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-red-500 bg-white hover:text-red-600 transition duration-300 cursor-pointer"><a href="#">Next </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-yellow-500 bg-white hover:text-yellow-600 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border hover:border-yellow-500 bg-white hover:text-yellow-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-yellow-500 bg-white cursor-pointer hover:text-yellow-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-yellow-600 cursor-pointer text-yellow-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-yellow-500 bg-white hover:text-yellow-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-yellow-500 bg-white hover:text-yellow-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-yellow-500 bg-white hover:text-yellow-600 transition duration-300 cursor-pointer"><a href="#">Next </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-green-500 bg-white hover:text-green-600 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border hover:border-green-500 bg-white hover:text-green-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-green-500 bg-white cursor-pointer hover:text-green-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-green-600 cursor-pointer text-green-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-green-500 bg-white hover:text-green-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-green-500 bg-white hover:text-green-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-green-500 bg-white hover:text-green-600 transition duration-300 cursor-pointer"><a href="#">Next </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-indigo-500 bg-white hover:text-indigo-600 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border hover:border-indigo-500 bg-white hover:text-indigo-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-indigo-500 bg-white cursor-pointer hover:text-indigo-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-indigo-600 cursor-pointer text-indigo-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-indigo-500 bg-white hover:text-indigo-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-indigo-500 bg-white hover:text-indigo-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-indigo-500 bg-white hover:text-indigo-600 transition duration-300 cursor-pointer"><a href="#">Next </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-purple-500 bg-white hover:text-purple-600 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border hover:border-purple-500 bg-white hover:text-purple-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-purple-500 bg-white cursor-pointer hover:text-purple-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-purple-600 cursor-pointer text-purple-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-purple-500 bg-white hover:text-purple-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-purple-500 bg-white hover:text-purple-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-purple-500 bg-white hover:text-purple-600 transition duration-300 cursor-pointer"><a href="#">Next </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-pink-500 bg-white hover:text-pink-600 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border hover:border-pink-500 bg-white hover:text-pink-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-pink-500 bg-white cursor-pointer hover:text-pink-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-pink-600 cursor-pointer text-pink-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-pink-500 bg-white hover:text-pink-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-pink-500 bg-white hover:text-pink-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-pink-500 bg-white hover:text-pink-600 transition duration-300 cursor-pointer"><a href="#">Next </a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <!-- Bottom -->
-                    <div class="flex flex-row h-12 w-full mt-auto border-t">
-                        <!-- Send Mail -->
-                        <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                            </svg>
-                            <div class="my-auto ml-2 text-sm font-bold ">
-                                Email
-                            </div>
-                        </button>
-                        <!-- Call Button -->
-                        <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                            </svg>
-                            <div class="my-auto ml-2 text-sm font-bold ">
-                                Call
-                            </div>
-                        </button>
+                    <div class="flex flex-wrap space-y-4 space-x-4 ">
+                        <nav class="block mt-4 ml-4">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-gray-600 text-gray-400 bg-gray-100 hover:bg-gray-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">Next </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-red-600 text-red-400 bg-red-100 hover:bg-red-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">Next </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-yellow-600 text-yellow-400 bg-yellow-100 hover:bg-yellow-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-blue-600 text-blue-400 bg-blue-100 hover:bg-blue-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-indigo-600 text-indigo-400 bg-indigo-100 hover:bg-indigo-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">Next </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-purple-600 text-purple-400 bg-purple-100 hover:bg-purple-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">Next </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
+                                <li class="px-4 py-2 border text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-pink-600 text-pink-400 bg-pink-100 hover:bg-pink-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">Next</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                </div>
-                
-            </div>
-            <div class="flex flex-row mt-12 justify-center ">
-                <div class="flex flex-col w-72 h-80 border shadow rounded-lg text-center ">
-                    <img src="images/person1.jpeg" class="w-1/3 rounded-full mx-auto mt-8" alt="">
-                    <h1 class="font-bold text-gray-600 mt-6">Fırat Kaya</h1>
-                    <p class="font-light text-sm text-gray-500 my-2">Junior Software Developer</p>
-                    <div class="w-16 inline bg-green-100 font-bold text-xs mx-auto rounded-full px-2 py-0.5 mt-2">
-                        Admin
+                    <div class="flex flex-wrap space-y-4 space-x-4 ">
+                        <nav class="block mt-4 ml-4">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-gray-500 bg-white hover:text-gray-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border hover:border-gray-500 bg-white hover:text-gray-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-gray-500 bg-white cursor-pointer hover:text-gray-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-gray-600 cursor-pointer text-gray-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-gray-500 bg-white hover:text-gray-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-gray-500 bg-white hover:text-gray-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-gray-500 bg-white hover:text-gray-600 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-red-500 bg-white hover:text-red-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border hover:border-red-500 bg-white hover:text-red-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-red-500 bg-white cursor-pointer hover:text-red-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-red-600 cursor-pointer text-red-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-red-500 bg-white hover:text-red-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-red-500 bg-white hover:text-red-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-red-500 bg-white hover:text-red-600 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-yellow-500 bg-white hover:text-yellow-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border hover:border-yellow-500 bg-white hover:text-yellow-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-yellow-500 bg-white cursor-pointer hover:text-yellow-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-yellow-600 cursor-pointer text-yellow-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-yellow-500 bg-white hover:text-yellow-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-yellow-500 bg-white hover:text-yellow-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-yellow-500 bg-white hover:text-yellow-600 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-green-500 bg-white hover:text-green-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border hover:border-green-500 bg-white hover:text-green-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-green-500 bg-white cursor-pointer hover:text-green-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-green-600 cursor-pointer text-green-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-green-500 bg-white hover:text-green-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-green-500 bg-white hover:text-green-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-green-500 bg-white hover:text-green-600 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-indigo-500 bg-white hover:text-indigo-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border hover:border-indigo-500 bg-white hover:text-indigo-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-indigo-500 bg-white cursor-pointer hover:text-indigo-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-indigo-600 cursor-pointer text-indigo-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-indigo-500 bg-white hover:text-indigo-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-indigo-500 bg-white hover:text-indigo-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-indigo-500 bg-white hover:text-indigo-600 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-purple-500 bg-white hover:text-purple-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border hover:border-purple-500 bg-white hover:text-purple-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-purple-500 bg-white cursor-pointer hover:text-purple-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-purple-600 cursor-pointer text-purple-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-purple-500 bg-white hover:text-purple-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-purple-500 bg-white hover:text-purple-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-purple-500 bg-white hover:text-purple-600 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex font-medium">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-pink-500 bg-white hover:text-pink-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border hover:border-pink-500 bg-white hover:text-pink-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border hover:border-pink-500 bg-white cursor-pointer hover:text-pink-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border border-pink-600 cursor-pointer text-pink-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border hover:border-pink-500 bg-white hover:text-pink-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border hover:border-pink-500 bg-white hover:text-pink-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-pink-500 bg-white hover:text-pink-600 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <!-- Bottom -->
-                    <div class="flex flex-row h-12 w-full mt-auto border-t">
-                        <!-- Send Mail -->
-                        <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                            </svg>
-                            <div class="my-auto ml-2 text-sm font-bold ">
-                                Email
-                            </div>
-                        </button>
-                        <!-- Call Button -->
-                        <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                            </svg>
-                            <div class="my-auto ml-2 text-sm font-bold ">
-                                Call
-                            </div>
-                        </button>
+                    <div class="flex flex-wrap space-y-4 space-x-4 ">
+                        <nav class="block mt-4 ml-4">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-gray-600 text-gray-400 bg-gray-100 hover:bg-gray-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-red-600 text-red-400 bg-red-100 hover:bg-red-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-red-600 hover:text-red-400 bg-white hover:bg-red-100 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-yellow-600 text-yellow-400 bg-yellow-100 hover:bg-yellow-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-yellow-600 hover:text-yellow-400 bg-white hover:bg-yellow-100 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-blue-600 text-blue-400 bg-blue-100 hover:bg-blue-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-blue-600 hover:text-blue-400 bg-white hover:bg-blue-100 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-indigo-600 text-indigo-400 bg-indigo-100 hover:bg-indigo-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-indigo-600 hover:text-indigo-400 bg-white hover:bg-indigo-100 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-purple-600 text-purple-400 bg-purple-100 hover:bg-purple-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-purple-600 hover:text-purple-400 bg-white hover:bg-purple-100 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <ul class="flex justify-center">
+                                <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border text-pink-600 text-pink-400 bg-pink-100 hover:bg-pink-100 transition duration-300 cursor-pointer shadow"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border rounded-br-md rounded-tr-md text-pink-600 hover:text-pink-400 bg-white hover:bg-pink-100 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
                     </div>
-                </div>
-                
-            </div>
-            <div class="flex flex-row mt-12 justify-center">
-                <div class="flex flex-col w-72 h-80 border shadow rounded-lg text-center ">
-                    <img src="images/person1.jpeg" class="w-1/3 rounded-full mx-auto mt-8" alt="">
-                    <h1 class="font-bold text-gray-600 mt-6">Fırat Kaya</h1>
-                    <p class="font-light text-sm text-gray-500 my-2">Junior Software Developer</p>
-                    <div class="w-16 inline bg-green-100 font-bold text-xs mx-auto rounded-full px-2 py-0.5 mt-2">
-                        Admin
+                    <span class="font-bold text-lg">Border Start & End</span>
+                    <nav class="inline-block ">
+                        <ul class="flex justify-start font-medium">
+                            <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-blue-500 bg-white hover:text-blue-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">1</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white cursor-pointer hover:text-blue-500"><a href="#">2</a></li>
+                            <li class="px-4 py-2 border border-blue-600 cursor-pointer text-blue-500"><a href="#">3</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">4</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">5</a></li>
+                            <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-blue-500 bg-white hover:text-blue-600 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                        </ul>
+                    </nav>
+                    <nav class="inline-block">
+                        <ul class="flex justify-end font-medium">
+                            <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-blue-500 bg-white hover:text-blue-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">1</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white cursor-pointer hover:text-blue-500"><a href="#">2</a></li>
+                            <li class="px-4 py-2 border border-blue-600 cursor-pointer text-blue-500"><a href="#">3</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">4</a></li>
+                            <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">5</a></li>
+                            <li class="px-4 py-2 border rounded-br-md rounded-tr-md hover:border-blue-500 bg-white hover:text-blue-600 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                        </ul>
+                    </nav>
+                    <span class="font-bold text-lg">Border Up</span>
+                    <nav class="block">
+                        <div class="w-full border-b-2 relative"></div>
+                        <ul class="flex justify-center font-normal space-x-2 ">
+                            <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-gray-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                            <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 hover:border-blue-500 bg-white hover:text-blue-500 text-gray-500 cursor-pointer"><a href="#">1</a></li>
+                            <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 bg-white cursor-pointer hover:text-blue-500 text-gray-500"><a href="#">2</a></li>
+                            <li class="px-4 py-2 border-t-2 border-white border-blue-600 cursor-pointer text-blue-500"><a href="#">3</a></li>
+                            <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-gray-500 cursor-pointer"><a href="#">4</a></li>
+                            <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-gray-500 cursor-pointer"><a href="#">5</a></li>
+                            <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-gray-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                        </ul>
+                    </nav>
+                    <nav class="block">
+                        <div class="w-full border-b-2 relative"></div>
+                        <ul class="flex justify-center font-normal space-x-2 ">
+                            <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-gray-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                            <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 hover:border-blue-500 bg-white hover:text-blue-500 text-gray-500 cursor-pointer"><a href="#">1</a></li>
+                            <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 bg-white cursor-pointer hover:text-blue-500 text-gray-500"><a href="#">2</a></li>
+                            <li class="px-4 py-2 border-t-4 border-white border-blue-600 cursor-pointer text-blue-500"><a href="#">3</a></li>
+                            <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-gray-500 cursor-pointer"><a href="#">4</a></li>
+                            <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-gray-500 cursor-pointer"><a href="#">5</a></li>
+                            <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-gray-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                        </ul>
+                    </nav>
+                    <span class="font-bold text-lg">Border Up With Colors</span>
+                    <div class="flex flex-col space-y-12">
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-gray-500 bg-white hover:text-gray-500 text-gray-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-gray-500 hover:border-gray-500 bg-white hover:text-gray-500 text-gray-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-gray-500 bg-white cursor-pointer hover:text-gray-500 text-gray-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white border-gray-600 cursor-pointer text-gray-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-gray-500 bg-white hover:text-gray-500 text-gray-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-gray-500 bg-white hover:text-gray-500 text-gray-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-gray-500 bg-white hover:text-gray-500 text-gray-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-red-500 bg-white hover:text-red-500 text-red-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-red-500 hover:border-red-500 bg-white hover:text-red-500 text-red-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-red-500 bg-white cursor-pointer hover:text-red-500 text-red-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white border-red-600 cursor-pointer text-red-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-red-500 bg-white hover:text-red-500 text-red-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-red-500 bg-white hover:text-red-500 text-red-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-red-500 bg-white hover:text-red-500 text-red-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-yellow-500 bg-white hover:text-yellow-500 text-yellow-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-yellow-500 hover:border-yellow-500 bg-white hover:text-yellow-500 text-yellow-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-yellow-500 bg-white cursor-pointer hover:text-yellow-500 text-yellow-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white border-yellow-600 cursor-pointer text-yellow-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-yellow-500 bg-white hover:text-yellow-500 text-yellow-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-yellow-500 bg-white hover:text-yellow-500 text-yellow-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-yellow-500 bg-white hover:text-yellow-500 text-yellow-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-green-500 bg-white hover:text-green-500 text-green-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-green-500 hover:border-green-500 bg-white hover:text-green-500 text-green-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-green-500 bg-white cursor-pointer hover:text-green-500 text-green-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white border-green-600 cursor-pointer text-green-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-green-500 bg-white hover:text-green-500 text-green-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-green-500 bg-white hover:text-green-500 text-green-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-green-500 bg-white hover:text-green-500 text-green-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-blue-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 hover:border-blue-500 bg-white hover:text-blue-500 text-blue-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 bg-white cursor-pointer hover:text-blue-500 text-blue-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white border-blue-600 cursor-pointer text-blue-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-blue-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-blue-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-blue-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-indigo-500 bg-white hover:text-indigo-500 text-indigo-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-indigo-500 hover:border-indigo-500 bg-white hover:text-indigo-500 text-indigo-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-indigo-500 bg-white cursor-pointer hover:text-indigo-500 text-indigo-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white border-indigo-600 cursor-pointer text-indigo-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-indigo-500 bg-white hover:text-indigo-500 text-indigo-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-indigo-500 bg-white hover:text-indigo-500 text-indigo-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-indigo-500 bg-white hover:text-indigo-500 text-indigo-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-purple-500 bg-white hover:text-purple-500 text-purple-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-purple-500 hover:border-purple-500 bg-white hover:text-purple-500 text-purple-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-purple-500 bg-white cursor-pointer hover:text-purple-500 text-purple-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white border-purple-600 cursor-pointer text-purple-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-purple-500 bg-white hover:text-purple-500 text-purple-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-purple-500 bg-white hover:text-purple-500 text-purple-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-purple-500 bg-white hover:text-purple-500 text-purple-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-pink-500 bg-white hover:text-pink-500 text-pink-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-pink-500 hover:border-pink-500 bg-white hover:text-pink-500 text-pink-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-pink-500 bg-white cursor-pointer hover:text-pink-500 text-pink-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white border-pink-600 cursor-pointer text-pink-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-pink-500 bg-white hover:text-pink-500 text-pink-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-pink-500 bg-white hover:text-pink-500 text-pink-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-2 border-white hover:border-pink-500 bg-white hover:text-pink-500 text-pink-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <!-- Bottom -->
-                    <div class="flex flex-row h-12 w-full mt-auto border-t">
-                        <!-- Send Mail -->
-                        <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-bl-md border-r focus:ring-2 focus:outline-none focus:ring-gray-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                            </svg>
-                            <div class="my-auto ml-2 text-sm font-bold ">
-                                Email
-                            </div>
-                        </button>
-                        <!-- Call Button -->
-                        <button class="flex w-1/2 h-full justify-center text-gray-500 cursor-pointer hover:bg-gray-300 transition duration-300 rounded-br-md focus:ring-2 focus:outline-none focus:ring-gray-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                            </svg>
-                            <div class="my-auto ml-2 text-sm font-bold ">
-                                Call
-                            </div>
-                        </button>
+                    <div class="flex flex-col space-y-12 mt-12">
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-gray-500 bg-white hover:text-gray-500 text-gray-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-gray-500 hover:border-gray-500 bg-white hover:text-gray-500 text-gray-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-gray-500 bg-white cursor-pointer hover:text-gray-500 text-gray-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white border-gray-600 cursor-pointer text-gray-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-gray-500 bg-white hover:text-gray-500 text-gray-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-gray-500 bg-white hover:text-gray-500 text-gray-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-gray-500 bg-white hover:text-gray-500 text-gray-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-red-500 bg-white hover:text-red-500 text-red-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-red-500 hover:border-red-500 bg-white hover:text-red-500 text-red-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-red-500 bg-white cursor-pointer hover:text-red-500 text-red-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white border-red-600 cursor-pointer text-red-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-red-500 bg-white hover:text-red-500 text-red-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-red-500 bg-white hover:text-red-500 text-red-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-red-500 bg-white hover:text-red-500 text-red-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-yellow-500 bg-white hover:text-yellow-500 text-yellow-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-yellow-500 hover:border-yellow-500 bg-white hover:text-yellow-500 text-yellow-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-yellow-500 bg-white cursor-pointer hover:text-yellow-500 text-yellow-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white border-yellow-600 cursor-pointer text-yellow-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-yellow-500 bg-white hover:text-yellow-500 text-yellow-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-yellow-500 bg-white hover:text-yellow-500 text-yellow-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-yellow-500 bg-white hover:text-yellow-500 text-yellow-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-green-500 bg-white hover:text-green-500 text-green-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-green-500 hover:border-green-500 bg-white hover:text-green-500 text-green-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-green-500 bg-white cursor-pointer hover:text-green-500 text-green-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white border-green-600 cursor-pointer text-green-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-green-500 bg-white hover:text-green-500 text-green-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-green-500 bg-white hover:text-green-500 text-green-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-green-500 bg-white hover:text-green-500 text-green-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-blue-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 hover:border-blue-500 bg-white hover:text-blue-500 text-blue-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 bg-white cursor-pointer hover:text-blue-500 text-blue-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white border-blue-600 cursor-pointer text-blue-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-blue-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-blue-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-blue-500 bg-white hover:text-blue-500 text-blue-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-indigo-500 bg-white hover:text-indigo-500 text-indigo-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-indigo-500 hover:border-indigo-500 bg-white hover:text-indigo-500 text-indigo-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-indigo-500 bg-white cursor-pointer hover:text-indigo-500 text-indigo-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white border-indigo-600 cursor-pointer text-indigo-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-indigo-500 bg-white hover:text-indigo-500 text-indigo-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-indigo-500 bg-white hover:text-indigo-500 text-indigo-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-indigo-500 bg-white hover:text-indigo-500 text-indigo-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-purple-500 bg-white hover:text-purple-500 text-purple-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-purple-500 hover:border-purple-500 bg-white hover:text-purple-500 text-purple-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-purple-500 bg-white cursor-pointer hover:text-purple-500 text-purple-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white border-purple-600 cursor-pointer text-purple-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-purple-500 bg-white hover:text-purple-500 text-purple-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-purple-500 bg-white hover:text-purple-500 text-purple-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-purple-500 bg-white hover:text-purple-500 text-purple-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
+                        <nav class="block">
+                            <div class="w-full border-b-2 relative"></div>
+                            <ul class="flex justify-center font-normal space-x-2 ">
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-pink-500 bg-white hover:text-pink-500 text-pink-500 transition duration-300 cursor-pointer"><a href="#">«</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-pink-500 hover:border-pink-500 bg-white hover:text-pink-500 text-pink-500 cursor-pointer"><a href="#">1</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-pink-500 bg-white cursor-pointer hover:text-pink-500 text-pink-500"><a href="#">2</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white border-pink-600 cursor-pointer text-pink-500"><a href="#">3</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-pink-500 bg-white hover:text-pink-500 text-pink-500 cursor-pointer"><a href="#">4</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-pink-500 bg-white hover:text-pink-500 text-pink-500 cursor-pointer"><a href="#">5</a></li>
+                                <li class="px-4 py-2 border-t-4 border-white hover:border-pink-500 bg-white hover:text-pink-500 text-pink-500 transition duration-300 cursor-pointer"><a href="#">» </a></li>
+                            </ul>
+                        </nav>
                     </div>
+                    <div class="h-96 w-full"></div>
                 </div>
-                
-            </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="flex justify-center">
-            <div class="flex flex-row w-72 h-16 justify-center border rounded-lg ">
-                <div class="flex flex-row w-1/5 bg-red-500 justify-center rounded-tl-md rounded-bl-md ">
-                    <div class="my-auto text-white font-mono text-lg">FK</div>
-                </div>
-                <div class="flex flex-col w-3/5 p-2 my-auto">
-                    <h1 class="text-base text-gray-600 font-bold">Fırat Kaya</h1>
-                    <p class="text-sm whitespace-nowrap	 mt-1 text-gray-600 font-light">Junior Software Engineer</p>
-                </div>
-                <div class="flex flex-row w-1/5 justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 my-auto cursor-pointer hover:text-gray-700 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-                    </svg>
-                </div>
-            </div>
-        </div>
-        <!-- Cards 3 -->
-        <div class="flex flex-row flex-wrap space-x-4 justify-center my-12">
-            <!-- Cards 3 -->
-            <div class="flex flex-row w-72 h-16 justify-center border rounded-lg ">
-                <div class="flex flex-row w-1/5 bg-green-500 justify-center rounded-tl-md rounded-bl-md ">
-                    <div class="my-auto text-white font-mono text-lg">FK</div>
-                </div>
-                <div class="flex flex-col w-3/5 p-2 my-auto">
-                    <h1 class="text-base text-gray-600 font-bold">Fırat Kaya</h1>
-                    <p class="text-sm whitespace-nowrap	 mt-1 text-gray-600 font-light">Junior Software Engineer</p>
-                </div>
-                <div class="flex flex-row w-1/5 justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 my-auto cursor-pointer hover:text-gray-700 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-                    </svg>
-                </div>
-            </div>
-            <!-- Cards 3 -->
-            <div class="flex flex-row w-72 h-16 justify-center border rounded-lg ">
-                <div class="flex flex-row w-1/5 bg-yellow-500 justify-center rounded-tl-md rounded-bl-md ">
-                    <div class="my-auto text-white font-mono text-lg">FK</div>
-                </div>
-                <div class="flex flex-col w-3/5 p-2 my-auto">
-                    <h1 class="text-base text-gray-600 font-bold">Fırat Kaya</h1>
-                    <p class="text-sm whitespace-nowrap	 mt-1 text-gray-600 font-light">Junior Software Engineer</p>
-                </div>
-                <div class="flex flex-row w-1/5 justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 my-auto cursor-pointer hover:text-gray-700 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-                    </svg>
-                </div>
-            </div>
-            <!-- Cards 3 -->
-            <div class="flex flex-row w-72 h-16 justify-center border rounded-lg ">
-                <div class="flex flex-row w-1/5 bg-blue-500 justify-center rounded-tl-md rounded-bl-md ">
-                    <div class="my-auto text-white font-mono text-lg">FK</div>
-                </div>
-                <div class="flex flex-col w-3/5 p-2 my-auto">
-                    <h1 class="text-base text-gray-600 font-bold">Fırat Kaya</h1>
-                    <p class="text-sm whitespace-nowrap	 mt-1 text-gray-600 font-light">Junior Software Engineer</p>
-                </div>
-                <div class="flex flex-row w-1/5 justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 my-auto cursor-pointer hover:text-gray-700 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-                    </svg>
-                </div>
-            </div>
-            <!-- Cards 3 -->
-            <div class="flex flex-row w-72 h-16 justify-center border rounded-lg ">
-                <div class="flex flex-row w-1/5 bg-indigo-500 justify-center rounded-tl-md rounded-bl-md ">
-                    <div class="my-auto text-white font-mono text-lg">FK</div>
-                </div>
-                <div class="flex flex-col w-3/5 p-2 my-auto">
-                    <h1 class="text-base text-gray-600 font-bold">Fırat Kaya</h1>
-                    <p class="text-sm whitespace-nowrap	 mt-1 text-gray-600 font-light">Junior Software Engineer</p>
-                </div>
-                <div class="flex flex-row w-1/5 justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 my-auto cursor-pointer hover:text-gray-700 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-                    </svg>
-                </div>
-            </div>
-        </div>
-        <!-- Card 4 -->
-        <div class="flex justify-center my-24">
-            <div class="flex flex-col w-72 h-auto border rounded-lg shadow">
-                <img src="images/person1.jpeg" class="h-48 rounded-tr-lg rounded-tl-lg" alt="">
-                <h1 class="font-bold px-4 mt-4 text-lg">Card Title</h1>
-                <div class="p-4 mb-4 text-justify text-sm">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatum maxime dolores sunt quo totam iure error enim vitae officiis, maiores quia, ducimus debitis fuga optio molestias eligendi quas culpa!
-                </div>
-                <button class="px-3 py-1.5 bg-blue-500 text-sm w-24 ml-4 mt-auto my-6 no-underline select-none text-center leading-6	font-normal	align-middle rounded-md text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
-                    Submit-sm
-                </button>
-            </div>
-        </div>
-
-        <!-- Cards 4 -->
-        <div class="flex flex-row flex-wrap space-x-4 justify-center my-24">
-            <!-- Cards 4 -->
-            <div class="flex justify-center">
-                <div class="flex flex-col w-72 h-auto border rounded-lg shadow">
-                    <img src="images/person1.jpeg" class="h-48 rounded-tr-lg rounded-tl-lg" alt="">
-                    <h1 class="font-bold px-4 mt-4 text-lg">Card Title</h1>
-                    <div class="p-4 mb-4 text-justify text-sm">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatum maxime dolores sunt quo totam iure error enim vitae officiis, maiores quia, ducimus debitis fuga optio molestias eligendi quas culpa!
-                    </div>
-                    <button class="px-3 py-1.5 bg-blue-500 text-sm w-24 ml-4 mt-auto my-6 no-underline select-none text-center leading-6	font-normal	align-middle rounded-md text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
-                        Submit-sm
-                    </button>
-                </div>
-            </div>
-            <div class="flex justify-center">
-                <div class="flex flex-col w-72 h-auto border rounded-lg shadow">
-                    <img src="images/person1.jpeg" class="h-48 rounded-tr-lg rounded-tl-lg" alt="">
-                    <h1 class="font-bold px-4 mt-4 text-lg">Card Title</h1>
-                    <div class="p-4 mb-4 text-justify text-sm">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatum maxime dolores sunt quo totam iure error enim vitae officiis, maiores quia, ducimus debitis fuga optio molestias eligendi quas culpa!
-                    </div>
-                    <button class="px-3 py-1.5 bg-blue-500 text-sm w-24 ml-4 mt-auto my-6 no-underline select-none text-center leading-6	font-normal	align-middle rounded-md text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
-                        Submit-sm
-                    </button>
-                </div>
-            </div>
-            <div class="flex justify-center">
-                <div class="flex flex-col w-72 h-auto border rounded-lg shadow">
-                    <img src="images/person1.jpeg" class="h-48 rounded-tr-lg rounded-tl-lg" alt="">
-                    <h1 class="font-bold px-4 mt-4 text-lg">Card Title</h1>
-                    <div class="p-4 mb-4 text-justify text-sm">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatum maxime dolores sunt quo totam iure error enim vitae officiis, maiores quia, ducimus debitis fuga optio molestias eligendi quas culpa!
-                    </div>
-                    <button class="px-3 py-1.5 bg-blue-500 text-sm w-24 ml-4 mt-auto my-6 no-underline select-none text-center leading-6	font-normal	align-middle rounded-md text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
-                        Submit-sm
-                    </button>
-                </div>
-            </div>
-            <div class="flex justify-center">
-                <div class="flex flex-col w-72 h-auto border rounded-lg shadow">
-                    <img src="images/person1.jpeg" class="h-48 rounded-tr-lg rounded-tl-lg" alt="">
-                    <h1 class="font-bold px-4 mt-4 text-lg">Card Title</h1>
-                    <div class="p-4 mb-4 text-justify text-sm">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatum maxime dolores sunt quo totam iure error enim vitae officiis, maiores quia, ducimus debitis fuga optio molestias eligendi quas culpa!
-                    </div>
-                    <button class="px-3 py-1.5 bg-blue-500 text-sm w-24 ml-4 mt-auto my-6 no-underline select-none text-center leading-6	font-normal	align-middle rounded-md text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
-                        Submit-sm
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- Card 5 -->
-        <div class="flex justify-center my-48">
-            <div class="flex flex-col h-48 border rounded" style="width: 48rem;">
-                <div class="bg-gray-100 px-4 py-2 border-b ">
-                    <h1 class="font-bold text-lg">Featured</h1>
-                </div>
-                <h1 class="px-4 py-2 font-bold text-lg">Special title treatment</h1>
-                <p class="px-4 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                <button class="px-4 py-2 bg-blue-500 text-base w-36 mt-4 ml-4 no-underline select-none text-center leading-6 font-normal align-middle rounded-md  text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
-                    Submit-md
-                </button>
-            </div>
-        </div>
-
             </div>
         </div>
     </div>
