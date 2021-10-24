@@ -1,6 +1,8 @@
 <template>
   <div class="container mx-auto h-full flex">
-    <Menu/>
+    <div class="w-2/12 relative">
+      <Menu/>
+    </div>
     <div class="flex w-10/12">
       <router-view></router-view>
     </div>

@@ -1,31 +1,40 @@
 <template>
   <div class="flex flex-col px-2 mt-4 w-full">
       <h1 class="font-bold text-xl">Badge Generator</h1>
-      <div>
+      <div class="mb-24">
           Bu alanda kendinize ait özel bir badge üretebilirsiniz.
       </div>
-      <div class="flex justify-center mt-24 border h-48 ">
+        <div class="flex flex-row space-x-4">
+            <TextSizePicker @setTextSize="setTextSize" />
+            <FontPicker @setFontFamily="setFontFamily" />
+            <BorderRadiusPicker @setBorderRadius="setBorderRadius"  />
+        </div>
+      <div class="flex justify-center border mt-4 h-48 ">
            <div :class="classValue">
                 badge
             </div>
       </div>
-      <ColorPicker v-bind:title="'Background Color'" @setColor="setBackgroundColor"/>
-      <ColorPicker v-bind:title="'Text Color'" @setColor="setTextColor"/>
-      <ColorPicker v-bind:title="'Border Color'" @setColor="setBorderColor"/>
-
+      <ColorPicker title="Background Color" @setColor="setBackgroundColor"/>
+      <ColorPicker title="Text Color" @setColor="setTextColor"/>
+      <ColorPicker title="Border Color" @setColor="setBorderColor"/>
+      <Result :result="classValue" />
+      <badge-examples />
   </div>
 </template>
 
 <script>
-import ColorPicker from '../common/ColorPicker.vue'
+import BadgeExamples from '../components/BadgeExamples.vue'
 export default {
-  components: { ColorPicker },
     name:"Badge",
+    components:{BadgeExamples},
     data(){
         return {
-            borderColor:'',
-            textColor:'',
-            backgroundColor:'',
+            borderColor:'black',
+            textColor:'black',
+            backgroundColor:'bg-white',
+            textSize:'text-base',
+            fontFamily:'font-mono',
+            borderRadius:'rounded-lg'
         }
     },
     methods:{
@@ -37,12 +46,21 @@ export default {
         },
         setBackgroundColor(color){
             this.backgroundColor = color
+        },
+        setTextSize(textSize){
+            this.textSize = textSize
+        },
+        setFontFamily(fontFamily){
+            this.fontFamily = fontFamily
+        },
+        setBorderRadius(borderRadius){
+            this.borderRadius = borderRadius
         }
     },
     computed:{
         classValue(){
-            return 'w-16 h-6 bg-'+this.backgroundColor+' rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center my-auto text-'+this.textColor+' border border-'+this.borderColor
-        }
+            return ' bg-'+this.backgroundColor+'  px-5 py-0.5 inline-block text-center my-auto text-'+this.textColor+' border border-'+this.borderColor + " "+this.textSize+ " "+this.fontFamily + " " + this.borderRadius
+         }
     }
 }
 </script>
