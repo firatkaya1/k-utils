@@ -999,11 +999,15 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex';
+
 export default {
     name:'AlertExamples',
     methods:{
+        ...mapMutations('notification',['pushNotification']),
         copyToClipboard(className){
             navigator.clipboard.writeText(className);
+            this.pushNotification({ message:"Kopyalandı.",type:"success"})
         }
     }
 }

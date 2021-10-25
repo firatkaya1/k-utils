@@ -38,7 +38,7 @@
                 </ul>
             </nav>
             <nav class="block">
-                <ul class="flex justify-center font-medium">
+                <ul  class="flex justify-center font-medium">
                     <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-blue-500 bg-white hover:text-blue-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
                     <li class="px-4 py-2 border hover:border-blue-500 bg-white hover:text-blue-500 cursor-pointer"><a href="#">1</a></li>
                     <li class="px-4 py-2 border hover:border-blue-500 bg-white cursor-pointer hover:text-blue-500"><a href="#">2</a></li>

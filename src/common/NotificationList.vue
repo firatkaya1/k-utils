@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute z-50 right-10 top-10 overflow-y-scrolling">
+  <div class="fixed z-50 right-10 top-10 overflow-y-scrolling">
       <div v-for="notification in notifications" :key="notification">
         <NotificationItem :notification="notification" />
       </div>

@@ -6,7 +6,7 @@
     <div class="flex w-10/12">
       <router-view></router-view>
     </div>
-    <notification-list />
+    <NotificationList/>
   </div>
 </template>
 
