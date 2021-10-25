@@ -1,6 +1,6 @@
 <template>
     <div class="flex w-96 border-r fixed top-0 left-0 h-screen p-4 font-mono flex flex-col">
-      <h1 class="font-bold text-2xl"> K-Utils </h1>
+      <h1 class="font-bold text-2xl flex flex-row"> <img src="@/assets/K.png" class="w-6 h-6" alt="logo">-Utils </h1>
       <hr>
       <ul class="list-inside list-disc bg-rose-200 space-y-2 mt-4 cursor-pointer ">
         <li>
