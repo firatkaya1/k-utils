@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible"content="IE=edge">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"rel="stylesheet">
-    <title>TailwindCSS | Paging</title>
-</head>
-<body>
-    <div class="container mx-auto mt-24 ">
+<template>
+   <div class="container mx-auto mt-24 ">
         <div class="flex flex-col space-y-6">
             <!-- Active element : shadow text-blue-600 bg-gray-100-->
             <span class="font-bold text-lg">Border Previous-Next</span>
@@ -621,5 +613,14 @@
             <div class="h-96 w-full"></div>
         </div>
     </div>
-</body>
-</html>
+</template>
+
+<script>
+export default {
+    name:'PaginationExamples'
+}
+</script>
+
+<style>
+
+</style>

@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <title>TailwindCSS | Alert</title>
-</head>
-<body>
-    <div class="container mx-auto mt-24">
+<template>
+<div class="container mx-auto mt-12">
         <div class="flex flex-row">
             <!--Alert Bootstrap-->
             <div class="flex flex-col space-y-8  w-1/2">
                 <!--Alert Gray-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-gray-200 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-gray-200 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -29,7 +20,7 @@
                     </div>
                 </div>
                 <!--Alert red-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-red-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-red-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -45,7 +36,7 @@
                     </div>
                 </div>
                 <!--Alert Yellow-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-yellow-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-yellow-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -61,7 +52,7 @@
                     </div>
                 </div>
                 <!--Alert green-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-green-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-green-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -77,7 +68,7 @@
                     </div>
                 </div>
                 <!--Alert blue-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-blue-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-blue-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -93,7 +84,7 @@
                     </div>
                 </div>
                 <!--Alert indigo-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-indigo-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-indigo-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -109,7 +100,7 @@
                     </div>
                 </div>
                 <!--Alert purple-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-purple-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-purple-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -125,7 +116,7 @@
                     </div>
                 </div>
                 <!--Alert pink-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-pink-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-pink-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -144,7 +135,7 @@
             <!--Alert Bootstrap-->
             <div class="flex flex-col space-y-8  w-1/2">
                 <!--Alert Gray-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-gray-200 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-gray-200 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -160,7 +151,7 @@
                     </div>
                 </div>
                 <!--Alert red-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-red-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-red-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -176,7 +167,7 @@
                     </div>
                 </div>
                 <!--Alert Yellow-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-yellow-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-yellow-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -192,7 +183,7 @@
                     </div>
                 </div>
                 <!--Alert green-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-green-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-green-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -208,7 +199,7 @@
                     </div>
                 </div>
                 <!--Alert blue-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-blue-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-blue-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -224,7 +215,7 @@
                     </div>
                 </div>
                 <!--Alert indigo-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-indigo-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-indigo-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -240,7 +231,7 @@
                     </div>
                 </div>
                 <!--Alert purple-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-purple-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-purple-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -256,7 +247,7 @@
                     </div>
                 </div>
                 <!--Alert pink-->
-                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-pink-200" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row border h-auto px-2 py-4 rounded  bg-pink-200" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -277,7 +268,7 @@
         <div class="flex flex-row my-24">
             <div class="flex flex-col space-y-8 w-1/2">
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -296,7 +287,7 @@
                     </div>
                 </div>
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -315,7 +306,7 @@
                     </div>
                 </div>
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -334,7 +325,7 @@
                     </div>
                 </div>
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -353,7 +344,7 @@
                     </div>
                 </div>
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -372,7 +363,7 @@
                     </div>
                 </div>
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -391,7 +382,7 @@
                     </div>
                 </div>
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -410,7 +401,7 @@
                     </div>
                 </div>
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -431,7 +422,7 @@
             </div>
             <div class="flex flex-col space-y-8 w-1/2">
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
@@ -451,7 +442,7 @@
                     </div>
                 </div>
                 <!-- Alert red -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
@@ -471,7 +462,7 @@
                     </div>
                 </div>
                 <!-- Alert yellow -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
@@ -491,7 +482,7 @@
                     </div>
                 </div>
                 <!-- Alert green -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
@@ -511,7 +502,7 @@
                     </div>
                 </div>
                 <!-- Alert blue -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
@@ -531,7 +522,7 @@
                     </div>
                 </div>
                 <!-- Alert indigo -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
@@ -551,7 +542,7 @@
                     </div>
                 </div>
                 <!-- Alert purple -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
@@ -571,7 +562,7 @@
                     </div>
                 </div>
                 <!-- Alert pink -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
@@ -595,7 +586,7 @@
         <div class="flex flex-row my-24">
             <div class="flex flex-col space-y-8 w-1/2">
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-gray-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -611,7 +602,7 @@
                     </div>
                 </div>
                 <!-- Alert red -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -627,7 +618,7 @@
                     </div>
                 </div>
                 <!-- Alert yellow -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -643,7 +634,7 @@
                     </div>
                 </div>
                 <!-- Alert green -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-green-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -659,7 +650,7 @@
                     </div>
                 </div>
                 <!-- Alert blue -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-blue-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -675,7 +666,7 @@
                     </div>
                 </div>
                 <!-- Alert indigo -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-indigo-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -691,7 +682,7 @@
                     </div>
                 </div>
                 <!-- Alert purple -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-purple-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -707,7 +698,7 @@
                     </div>
                 </div>
                 <!-- Alert pink -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-pink-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -725,7 +716,7 @@
             </div>
             <div class="flex flex-col space-y-8 w-1/2">
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto   " viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
@@ -735,7 +726,7 @@
                     <a href="#" class="text-sm text-gray-500 my-auto px-2 hover:underline hover:text-gray-800 transition duration-300">Details</a>
                 </div>
                 <!-- Alert red -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
@@ -745,7 +736,7 @@
                     <a href="#" class="text-sm text-red-500 my-auto px-2 hover:underline hover:text-red-800 transition duration-300">Details</a>
                 </div>
                 <!-- Alert yellow -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
@@ -755,7 +746,7 @@
                     <a href="#" class="text-sm text-yellow-500 my-auto px-2 hover:underline hover:text-yellow-800 transition duration-300">Details</a>
                 </div>
                 <!-- Alert green -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-green-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
@@ -765,7 +756,7 @@
                     <a href="#" class="text-sm text-green-500 my-auto px-2 hover:underline hover:text-green-800 transition duration-300">Details</a>
                 </div>
                 <!-- Alert blue -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-blue-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
@@ -775,7 +766,7 @@
                     <a href="#" class="text-sm text-blue-500 my-auto px-2 hover:underline hover:text-blue-800 transition duration-300">Details</a>
                 </div>
                 <!-- Alert indigo -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-indigo-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
@@ -785,7 +776,7 @@
                     <a href="#" class="text-sm text-indigo-500 my-auto px-2 hover:underline hover:text-indigo-800 transition duration-300">Details</a>
                 </div>
                 <!-- Alert purple -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-purple-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
@@ -795,7 +786,7 @@
                     <a href="#" class="text-sm text-purple-500 my-auto px-2 hover:underline hover:text-purple-800 transition duration-300">Details</a>
                 </div>
                 <!-- Alert pink -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-pink-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
@@ -808,7 +799,7 @@
                 <div class="w-full border"></div>
                 <!-- Alert tick with dismiss -->
                 <!-- Alert Gray -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -820,7 +811,7 @@
                     </svg>
                 </div>
                 <!-- Alert red -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -832,7 +823,7 @@
                     </svg>
                 </div>
                 <!-- Alert yellow -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -844,7 +835,7 @@
                     </svg>
                 </div>
                 <!-- Alert green -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-green-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -856,7 +847,7 @@
                     </svg>
                 </div>
                 <!-- Alert blue -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-blue-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -868,7 +859,7 @@
                     </svg>
                 </div>
                 <!-- Alert indigo -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-indigo-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -880,7 +871,7 @@
                     </svg>
                 </div>
                 <!-- Alert purple -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-purple-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -892,7 +883,7 @@
                     </svg>
                 </div>
                 <!-- Alert pink -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 " style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-pink-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -907,7 +898,7 @@
         </div>
         <div class="flex flex-row mb-24">
             <div class="flex flex-col space-y-8 w-1/2">
-                <div class="flex flex-row h-auto px-2 py-4 rounded bg-gray-100 border-l-8 border-gray-700" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded bg-gray-100 border-l-8 border-gray-700" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -919,7 +910,7 @@
                     </svg>
                 </div>
                 <!-- Alert red -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 border-l-8 border-red-700" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-red-100 border-l-8 border-red-700" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-red-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -931,7 +922,7 @@
                     </svg>
                 </div>
                 <!-- Alert yellow -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 border-l-8 border-yellow-700" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-yellow-100 border-l-8 border-yellow-700" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -943,7 +934,7 @@
                     </svg>
                 </div>
                 <!-- Alert green -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 border-l-8 border-green-700" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-green-100 border-l-8 border-green-700" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-green-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -955,7 +946,7 @@
                     </svg>
                 </div>
                 <!-- Alert blue -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 border-l-8 border-blue-700" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-blue-100 border-l-8 border-blue-700" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-blue-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -967,7 +958,7 @@
                     </svg>
                 </div>
                 <!-- Alert indigo -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 border-l-8 border-indigo-700" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-indigo-100 border-l-8 border-indigo-700" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-indigo-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -979,7 +970,7 @@
                     </svg>
                 </div>
                 <!-- Alert purple -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 border-l-8 border-purple-700" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-purple-100 border-l-8 border-purple-700" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-purple-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -991,7 +982,7 @@
                     </svg>
                 </div>
                 <!-- Alert pink -->
-                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 border-l-8 border-pink-700" style="width: 36rem;" onclick="copyToClipboard(this.innerHTML)">
+                <div class="flex flex-row h-auto px-2 py-4 rounded  bg-pink-100 border-l-8 border-pink-700" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto text-pink-500" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -1005,6 +996,19 @@
             </div>
         </div>
     </div>
-    
-</body>
-</html>
+</template>
+
+<script>
+export default {
+    name:'AlertExamples',
+    methods:{
+        copyToClipboard(className){
+            navigator.clipboard.writeText(className);
+        }
+    }
+}
+</script>
+
+<style>
+
+</style>

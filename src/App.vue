@@ -6,15 +6,17 @@
     <div class="flex w-10/12">
       <router-view></router-view>
     </div>
+    <notification-list />
   </div>
 </template>
 
 <script>
 import Menu from './common/Menu.vue'
+import NotificationList from './common/NotificationList.vue'
 
 export default {
   name: 'App',
-  components:{Menu}
+  components:{Menu, NotificationList}
   
 }
     Menu
