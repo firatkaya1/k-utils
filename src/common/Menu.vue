@@ -33,11 +33,11 @@
         </a>
       </div>
 
-      <div @click="openMenu()" class="absolute z-50 ml-80">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 float-right mt-4 ml-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" v-if="!isMenuOpen" >
+      <div @click="openMenu()" class="absolute z-50 right-3">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 float-right mt-4 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" v-if="!isMenuOpen" >
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 float-right mt-4 ml-12 text-green-500 lg:hidden" viewBox="0 0 20 20" fill="currentColor" v-else>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 float-right mt-4 text-green-500 lg:hidden" viewBox="0 0 20 20" fill="currentColor" v-if="isMenuOpen">
           <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
         </svg>
       </div>
