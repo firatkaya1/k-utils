@@ -4,6 +4,8 @@ import Badge from '../views/Badge.vue'
 import Alert from '../views/Alert.vue'
 import Button from '../views/Button.vue'
 import Pagination from '../views/Pagination.vue'
+import Chips from '../views/Chips.vue'
+
 
 const routes = [
     {
@@ -29,6 +31,10 @@ const routes = [
     {
       path:'/pagination',
       component:Pagination,
+    },
+    {
+      path:'/chips',
+      component:Chips,
     },
     {
       path: '/:pathMatch(.*)*',

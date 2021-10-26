@@ -86,6 +86,9 @@
           <label class="font-mono line-through text-green-500">
             <input type="checkbox" class="transform scale-150" checked disabled> Pagination
           </label>
+          <label class="font-mono line-through text-green-500">
+            <input type="checkbox" class="transform scale-150" checked disabled> Chips
+          </label>
           <label class="font-mono ">
             <input type="checkbox" class="transform scale-150"> Inputs
           </label>
