@@ -4,7 +4,7 @@
       <div class="mb-24">
           Bu alanda kendinize ait özel bir badge üretebilirsiniz.
       </div>
-        <div class="flex flex-row space-x-4">
+        <div class="flex flex-row lg:space-x-4 space-y-2 flex-wrap">
             <TextSizePicker @setTextSize="setTextSize" />
             <FontPicker @setFontFamily="setFontFamily" />
             <BorderRadiusPicker @setBorderRadius="setBorderRadius"  />
@@ -18,7 +18,7 @@
       <ColorPicker title="Text Color" @setColor="setTextColor"/>
       <ColorPicker title="Border Color" @setColor="setBorderColor"/>
       <Result :result="classValue" />
-      <badge-examples />
+      <BadgeExamples />
   </div>
 </template>
 

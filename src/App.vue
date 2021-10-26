@@ -1,9 +1,7 @@
 <template>
   <div class="container mx-auto h-full flex">
-    <div class="w-2/12 relative">
-      <Menu/>
-    </div>
-    <div class="flex w-10/12">
+    <Menu/>
+    <div class="flex w-full lg:w-10/12 mt-24 lg:mt-0">
       <router-view></router-view>
     </div>
     <NotificationList/>

@@ -4,7 +4,7 @@
             <!-- Badge default-->
         <div class="text-2xl border-t-4 font-bold font-mono py-4 mt-4">Badges</div>
         <div class="flex flex-col">
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-50 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -30,7 +30,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-100 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -56,7 +56,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-200 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -82,7 +82,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-300 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -108,7 +108,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-400 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -134,7 +134,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-500 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -160,7 +160,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-600 border text-white rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -186,7 +186,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-700 border text-white rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -212,7 +212,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-800 border text-white rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -238,7 +238,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-900 border text-white rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -267,7 +267,7 @@
         </div>
         <div class="flex flex-col">
             <div class="font-bold text-lg my-4">Badge xs</div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-50 border rounded-full px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -293,7 +293,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-100 border rounded-full px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -319,7 +319,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-200 border rounded-full px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -345,7 +345,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-300 border rounded-full px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -371,7 +371,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-400 border rounded-full px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -397,7 +397,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-500 border rounded-full px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -423,7 +423,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-600 border text-white rounded-full px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -449,7 +449,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-700 border text-white rounded-full px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -475,7 +475,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-800 border text-white rounded-full px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -501,7 +501,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-900 border text-white rounded-full px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -530,7 +530,7 @@
         </div>
         <div class="flex flex-col">
             <div class="font-bold text-lg my-4">Badge sm</div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-50 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -556,7 +556,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-100 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -582,7 +582,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-200 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -608,7 +608,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-300 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -634,7 +634,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-400 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -660,7 +660,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-500 border rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -686,7 +686,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-600 border text-white rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -712,7 +712,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-700 border text-white rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -738,7 +738,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-800 border text-white rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -764,7 +764,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-900 border text-white rounded-full px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -794,7 +794,7 @@
         <div class="flex flex-col">
                 <div class="font-bold text-lg my-4">Badge base</div>
                 <div class="flex flex-col">
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-50 border rounded-full px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -820,7 +820,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-100 border rounded-full px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -846,7 +846,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-200 border rounded-full px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -872,7 +872,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-300 border rounded-full px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -898,7 +898,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-400 border rounded-full px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -924,7 +924,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-500 border rounded-full px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -950,7 +950,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-600 border text-white rounded-full px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -976,7 +976,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-700 border text-white rounded-full px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1002,7 +1002,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-800 border text-white rounded-full px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1028,7 +1028,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-900 border text-white rounded-full px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1059,7 +1059,7 @@
             <div class="flex flex-col">
                 <div class="font-bold text-lg my-4">Badge lg</div>
                 <div class="flex flex-col">
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-50 border rounded-full px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1085,7 +1085,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-100 border rounded-full px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1111,7 +1111,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-200 border rounded-full px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1137,7 +1137,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-300 border rounded-full px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1163,7 +1163,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-400 border rounded-full px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1189,7 +1189,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-500 border rounded-full px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1215,7 +1215,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-600 border text-white rounded-full px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1241,7 +1241,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-700 border text-white rounded-full px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1267,7 +1267,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-800 border text-white rounded-full px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1293,7 +1293,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-900 border text-white rounded-full px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -1323,7 +1323,7 @@
             </div>
         <div class="text-2xl border-t-4 font-bold font-mono py-4 mt-4">Normal Badgeds</div>
         <div class="flex flex-col">
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-50 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -1349,7 +1349,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-100 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -1375,7 +1375,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-200 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -1401,7 +1401,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-300 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -1427,7 +1427,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-400 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -1453,7 +1453,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-500 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -1479,7 +1479,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-600 border text-white rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -1505,7 +1505,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-700 border text-white rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -1531,7 +1531,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                 <div class="w-auto bg-gray-800 border text-white rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -1557,7 +1557,7 @@
                     Badge
                 </div>
             </div>
-            <div class="flex flex-row flex-nowrap space-x-4 my-4">
+            <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                 <div class="w-auto bg-gray-900 border text-white rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                     Badge
                 </div>
@@ -1587,7 +1587,7 @@
         <div class="flex flex-col">
             <div class="flex flex-col">
                 <div class="font-bold text-lg my-4">Badge xs</div>
-                <div class="flex flex-row flex-nowrap space-x-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                     <div class="w-auto bg-gray-50 border rounded-md px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1613,7 +1613,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                     <div class="w-auto bg-gray-100 border rounded-md px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1639,7 +1639,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                     <div class="w-auto bg-gray-200 border rounded-md px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1665,7 +1665,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                     <div class="w-auto bg-gray-300 border rounded-md px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1691,7 +1691,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                     <div class="w-auto bg-gray-400 border rounded-md px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1717,7 +1717,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                     <div class="w-auto bg-gray-500 border rounded-md px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1743,7 +1743,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                     <div class="w-auto bg-gray-600 border text-white rounded-md px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1769,7 +1769,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                     <div class="w-auto bg-gray-700 border text-white rounded-md px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1795,7 +1795,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                     <div class="w-auto bg-gray-800 border text-white rounded-md px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1821,7 +1821,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                     <div class="w-auto bg-gray-900 border text-white rounded-md px-2 py-0.5 text-xs font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1850,7 +1850,7 @@
             </div>
             <div class="flex flex-col">
                 <div class="font-bold text-lg my-4">Badge sm</div>
-                <div class="flex flex-row flex-nowrap space-x-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                     <div class="w-auto bg-gray-50 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1876,7 +1876,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                     <div class="w-auto bg-gray-100 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1902,7 +1902,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                     <div class="w-auto bg-gray-200 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1928,7 +1928,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                     <div class="w-auto bg-gray-300 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1954,7 +1954,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                     <div class="w-auto bg-gray-400 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -1980,7 +1980,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                     <div class="w-auto bg-gray-500 border rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -2006,7 +2006,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                     <div class="w-auto bg-gray-600 border text-white rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -2032,7 +2032,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                     <div class="w-auto bg-gray-700 border text-white rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -2058,7 +2058,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                     <div class="w-auto bg-gray-800 border text-white rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -2084,7 +2084,7 @@
                         Badge
                     </div>
                 </div>
-                <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                     <div class="w-auto bg-gray-900 border text-white rounded-md px-2 py-0.5 text-sm font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                         Badge
                     </div>
@@ -2116,7 +2116,7 @@
             <div class="flex flex-col">
                 <div class="font-bold text-lg my-4">Badge base</div>
                 <div class="flex flex-col">
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-50 border rounded-md px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2142,7 +2142,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-100 border rounded-md px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2168,7 +2168,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-200 border rounded-md px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2194,7 +2194,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-300 border rounded-md px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2220,7 +2220,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-400 border rounded-md px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2246,7 +2246,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-500 border rounded-md px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2272,7 +2272,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-600 border text-white rounded-md px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2298,7 +2298,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-700 border text-white rounded-md px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2324,7 +2324,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-800 border text-white rounded-md px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2350,7 +2350,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-900 border text-white rounded-md px-2 py-0.5 text-base font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2381,7 +2381,7 @@
             <div class="flex flex-col">
                 <div class="font-bold text-lg my-4">Badge lg</div>
                 <div class="flex flex-col">
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-50 border rounded-md px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2407,7 +2407,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-100 border rounded-md px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2433,7 +2433,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-200 border rounded-md px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2459,7 +2459,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-300 border rounded-md px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2485,7 +2485,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-400 border rounded-md px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2511,7 +2511,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-500 border rounded-md px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2537,7 +2537,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-600 border text-white rounded-md px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2563,7 +2563,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-700 border text-white rounded-md px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2589,7 +2589,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4">
                         <div class="w-auto bg-gray-800 border text-white rounded-md px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
@@ -2615,7 +2615,7 @@
                             Badge
                         </div>
                     </div>
-                    <div class="flex flex-row flex-nowrap space-x-4 my-4">
+                    <div class="flex flex-row lg:flex-nowrap flex-wrap lg:space-x-4 my-4">
                         <div class="w-auto bg-gray-900 border text-white rounded-md px-2 py-0.5 text-lg font-mono inline-block text-center" @click="copyToClipboard($event.target.className)">
                             Badge
                         </div>
