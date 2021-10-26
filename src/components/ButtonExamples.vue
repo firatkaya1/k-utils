@@ -1,10 +1,10 @@
 <template>
-  <div class="container mx-auto mt-24">
-        <div class="flex flex-col">
-             <!-- Button primary -->
-            <div class="flex ">
+    <div class="container lg:mx-auto mt-24">
+        <div class="flex lg:flex-col flex-row flex-wrap">
+            <!-- Button primary -->
+            <div class="flex flex-wrap lg:flex-nowrap">
                 <!-- Button primary -->
-                <div class="space-x-6">
+                <div class="flex flex-row space-x-6 lg-2">
                     <button @click="copyToClipboard($event.target.className)" class="px-1 py-0.5 bg-blue-500 text-xs no-underline select-none text-center leading-6	font-normal	align-middle rounded text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
                         Submit-xs
                     </button>
@@ -22,7 +22,7 @@
                     </button>
                 </div>
                 <!-- Button outline primary -->
-                <div class="space-x-6 ml-64">
+                <div class="space-x-6 lg:ml-64">
                     <button @click="copyToClipboard($event.target.className)"  class="px-1 py-0.5 bg-white border border-blue-500  text-xs no-underline select-none text-center leading-6	font-normal	align-middle rounded text-blue-500 hover:text-white focus:outline-none hover:bg-blue-700 transition duration-300 shadow-lg focus:ring-4 focus:ring-blue-200 inline-block">
                         Submit-xs
                     </button>
@@ -200,7 +200,7 @@
                 </div>
             </div>
 
-             <!-- Button info -->
+            <!-- Button info -->
             <div class="flex  my-12">
                 <!-- Button info -->
                 <div class="space-x-6">
@@ -260,8 +260,8 @@
                         Submit-lg
                     </button>
                 </div>
-                 <!-- Button outline light -->
-                 <div class="space-x-6 ml-64">
+                    <!-- Button outline light -->
+                    <div class="space-x-6 ml-64">
                     <button @click="copyToClipboard($event.target.className)"  class="px-1 py-0.5 bg-white border border-gray-200 text-xs no-underline select-none text-center leading-6	font-normal	align-middle rounded text-gray-500 hover:text-black focus:outline-none hover:bg-gray-100 transition duration-300 shadow-lg focus:ring-4 focus:ring-gray-200 inline-block">
                         Submit-xs
                     </button>
@@ -279,7 +279,8 @@
                     </button>
                 </div>
             </div>
-             <!-- Button black -->
+
+            <!-- Button black -->
             <div class="flex my-12">
                 <!-- Button black -->
                 <div class="space-x-6">

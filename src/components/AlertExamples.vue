@@ -1,6 +1,6 @@
 <template>
-<div class="container mx-auto mt-12">
-        <div class="flex flex-row">
+    <div class="container mx-auto mt-12">
+        <div class="flex lg:flex-row flex-col">
             <!--Alert Bootstrap-->
             <div class="flex flex-col space-y-8  w-1/2">
                 <!--Alert Gray-->
@@ -265,8 +265,8 @@
             </div>
         </div>
         <!-- Tailwind Alert -->
-        <div class="flex flex-row my-24">
-            <div class="flex flex-col space-y-8 w-1/2">
+        <div class="flex lg:flex-row flex-col my-24">
+            <div class="flex lg:flex-row flex-col space-y-8 w-1/2">
                 <!-- Alert Gray -->
                 <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
@@ -583,8 +583,8 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row my-24">
-            <div class="flex flex-col space-y-8 w-1/2">
+        <div class="flex lg:flex-row flex-col my-24">
+            <div class="flex lg:flex-row flex-col space-y-8 w-1/2">
                 <!-- Alert Gray -->
                 <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
@@ -896,8 +896,8 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row mb-24">
-            <div class="flex flex-col space-y-8 w-1/2">
+        <div class="flex lg:flex-row flex-col mb-24">
+            <div class="flex lg:flex-row flex-col space-y-8 w-1/2">
                 <div class="flex flex-row h-auto px-2 py-4 rounded bg-gray-100 border-l-8 border-gray-700" style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 my-auto" viewBox="0 0 20 20" fill="currentColor">
