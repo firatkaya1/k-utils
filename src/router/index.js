@@ -5,7 +5,7 @@ import Alert from '../views/Alert.vue'
 import Button from '../views/Button.vue'
 import Pagination from '../views/Pagination.vue'
 import Chips from '../views/Chips.vue'
-
+import Navbar from '../views/Navbar.vue'
 
 const routes = [
     {
@@ -35,6 +35,10 @@ const routes = [
     {
       path:'/chips',
       component:Chips,
+    },
+    {
+      path:'/navbar',
+      component:Navbar,
     },
     {
       path: '/:pathMatch(.*)*',

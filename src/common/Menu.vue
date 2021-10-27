@@ -8,19 +8,22 @@
             <router-link to="/home">Başlamadan önce</router-link>
           </li>
           <li>
-            <router-link to="/badge" >Badge</router-link >
+            <router-link to="/badge" >Badge</router-link>
           </li>
           <li>
-            <router-link to="/alert">Alerts</router-link >
+            <router-link to="/alert">Alerts</router-link>
           </li>
           <li>
-            <router-link to="/button">Buttons</router-link >
+            <router-link to="/button">Buttons</router-link>
           </li>
           <li>
-            <router-link to="/pagination">Paginations  </router-link > 
+            <router-link to="/pagination">Paginations</router-link> 
           </li>
           <li>
-            <router-link to="/chips">Chips  </router-link > 
+            <router-link to="/chips">Chips</router-link> 
+          </li>
+          <li>
+            <router-link to="/navbar">Navbar</router-link> 
           </li>
           <a href="https://github.com/firatkaya1/k-utils" target="_blank" class="mt-auto flex flex-row  space-x-4 hover:text-blue-600 cursor-pointer lg:hidden">
               <img src="@/assets/github.svg" class="h-6 w-6 rounded-full" alt="" >
@@ -54,7 +57,6 @@ export default {
   },
   methods:{
     openMenu(){
-      console.log(this.isMenuOpen)
       this.isMenuOpen = !this.isMenuOpen
     }
   }

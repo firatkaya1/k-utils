@@ -1,7 +1,7 @@
 <template>
-  <div class="container mt-12 mb-48">
+  <div class="container mt-12 mb-48 lg:space-x-0 space-x-4 flex lg:block justify-between flex-wrap space-y-12">
       <!-- Complete -->
-      <div class="flex flex-row space-x-4">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
         <div class="flex bg-white border-2 px-2 py-1 rounded border-gray-400 text-gray-500 hover:text-gray-600 hover:border-gray-600">
           Complete  
@@ -63,7 +63,7 @@
       </div>
 
       <!-- Complete Fill-->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
           <div class="flex bg-gray-400 border-2 px-2 py-1 rounded border-gray-400 text-white ">
             Complete  
@@ -125,7 +125,7 @@
       </div>
 
       <!-- Success -->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
         <div class="flex bg-white border-2 px-2 py-1 rounded-full border-gray-400 text-gray-500 hover:text-gray-600 hover:border-gray-600">
           Success  
@@ -185,7 +185,7 @@
       </div>
 
       <!-- Success-fill -->
-      <div class="flex flex-row space-x-4 mt-6 mb-12">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
       <div class="flex bg-gray-400 border-2 px-2 py-1 rounded-full border-gray-400 text-white hover:border-gray-600">
         Success  
@@ -250,7 +250,7 @@
         Tüm ikonlar <a target="_blank" href="https://heroicons.com" class="text-blue-500 hover:text-blue-600 "> heroicons.com </a> adresinden alınmıştır.
       </p>
       <!-- Icon 1 -->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
           <div class="flex bg-white border-2 px-2 py-1 rounded-full border-gray-400 text-gray-500 hover:text-gray-600 hover:border-gray-600">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -310,7 +310,7 @@
       </div>
 
       <!-- Icon 2 -->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
           <div class="flex bg-white border-2 px-2 py-1 rounded-full border-gray-400 text-gray-500 hover:text-gray-600 hover:border-gray-600">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -370,7 +370,7 @@
       </div>
 
        <!-- Icon 3 -->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
       <div class="flex bg-white border-2 px-2 py-1 rounded border-gray-400 text-gray-500 hover:text-gray-600 hover:border-gray-600">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -432,7 +432,7 @@
       </div>
 
       <!-- Icon 4 -->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
         <div class="flex bg-gray-400 border-2 px-2 py-1 rounded border-gray-400 text-white ">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -504,7 +504,7 @@
       <hr>
 
       <!-- Complete -->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
           <div class="flex bg-white border-2 px-2 py-1 rounded border-gray-500 text-gray-500 hover:text-gray-600 hover:border-gray-600">
             Complete  
@@ -566,7 +566,7 @@
       </div>
 
       <!-- Complete Fill-->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
           <div class="flex bg-gray-500 border-2 px-2 py-1 rounded border-gray-500 text-white ">
             Complete  
@@ -628,7 +628,7 @@
       </div>
 
       <!-- Success -->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
         <div class="flex bg-white border-2 px-2 py-1 rounded-full border-gray-500 text-gray-500 hover:text-gray-600 hover:border-gray-600">
           Success  
@@ -688,7 +688,7 @@
       </div>
 
       <!-- Success-fill -->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
       <div class="flex bg-gray-500 border-2 px-2 py-1 rounded-full border-gray-500 text-white hover:border-gray-600">
         Success  
@@ -751,7 +751,7 @@
 
       
       <!-- Complete 600 -->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
           <div class="flex bg-white border-2 px-2 py-1 rounded border-gray-600 text-gray-600 hover:text-gray-600 hover:border-gray-600">
             Complete  
@@ -813,7 +813,7 @@
       </div>
 
       <!-- Complete Fill 600-->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
           <div class="flex bg-gray-600 border-2 px-2 py-1 rounded border-gray-600 text-white ">
             Complete  
@@ -875,7 +875,7 @@
       </div>
 
       <!-- Success 600-->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
         <div class="flex bg-white border-2 px-2 py-1 rounded-full border-gray-600 text-gray-600 hover:text-gray-600 hover:border-gray-600">
           Success  
@@ -935,7 +935,7 @@
       </div>
 
       <!-- Success-fill 600-->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
       <div class="flex bg-gray-600 border-2 px-2 py-1 rounded-full border-gray-600 text-white hover:border-gray-600">
         Success  
@@ -997,7 +997,7 @@
       <hr class="my-6">
 
       <!-- Complete 700 -->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
           <div class="flex bg-white border-2 px-2 py-1 rounded border-gray-700 text-gray-700 hover:text-gray-700 hover:border-gray-700">
             Complete  
@@ -1059,7 +1059,7 @@
       </div>
 
       <!-- Complete Fill 700-->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
           <div class="flex bg-gray-700 border-2 px-2 py-1 rounded border-gray-700 text-white ">
             Complete  
@@ -1121,7 +1121,7 @@
       </div>
 
       <!-- Success 700-->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
         <div class="flex bg-white border-2 px-2 py-1 rounded-full border-gray-700 text-gray-700 hover:text-gray-700 hover:border-gray-700">
           Success  
@@ -1181,7 +1181,7 @@
       </div>
 
       <!-- Success-fill 700-->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
       <div class="flex bg-gray-700 border-2 px-2 py-1 rounded-full border-gray-700 text-white hover:border-gray-700">
         Success  
@@ -1243,7 +1243,7 @@
       <hr class="my-6">
 
       <!-- Complete 800 -->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
           <div class="flex bg-white border-2 px-2 py-1 rounded border-gray-800 text-gray-800 hover:text-gray-800 hover:border-gray-800">
             Complete  
@@ -1305,7 +1305,7 @@
       </div>
 
       <!-- Complete Fill 800-->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
           <div class="flex bg-gray-800 border-2 px-2 py-1 rounded border-gray-800 text-white ">
             Complete  
@@ -1367,7 +1367,7 @@
       </div>
 
       <!-- Success 800-->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
         <div class="flex bg-white border-2 px-2 py-1 rounded-full border-gray-800 text-gray-800 hover:text-gray-800 hover:border-gray-800">
           Success  
@@ -1427,7 +1427,7 @@
       </div>
 
       <!-- Success-fill 800-->
-      <div class="flex flex-row space-x-4 mt-6">
+      <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 
       <div class="flex bg-gray-800 border-2 px-2 py-1 rounded-full border-gray-800 text-white hover:border-gray-800">
         Success  
