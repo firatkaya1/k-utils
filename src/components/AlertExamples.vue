@@ -266,7 +266,7 @@
         </div>
         <!-- Tailwind Alert -->
         <div class="flex lg:flex-row flex-col my-24">
-            <div class="flex lg:flex-row flex-col space-y-8 w-1/2">
+            <div class="flex flex-col space-y-8 w-1/2">
                 <!-- Alert Gray -->
                 <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" @click="copyToClipboard($event.target.className)">
                     <div>

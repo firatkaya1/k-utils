@@ -25,12 +25,15 @@
           <li>
             <router-link to="/navbar">Navbar</router-link> 
           </li>
+          <li>
+            <router-link to="/progress">Progress</router-link> 
+          </li>
           <a href="https://github.com/firatkaya1/k-utils" target="_blank" class="mt-auto flex flex-row  space-x-4 hover:text-blue-600 cursor-pointer lg:hidden">
               <img src="@/assets/github.svg" class="h-6 w-6 rounded-full" alt="" >
               <div class="font-bold font-mono text-lg ">Github</div>
             </a>
         </ul>
-        <a href="https://github.com/firatkaya1/k-utils" target="_blank" class="mt-auto flex flex-row justify-center space-x-4 hover:text-blue-600 cursor-pointer hidden lg:flex">
+        <a href="https://github.com/firatkaya1/k-utils" target="_blank" class="mt-auto flex flex-row justify-center space-x-4 hover:text-blue-600 cursor-pointer hidden lg:flex mb-4">
           <img src="@/assets/github.svg" class="h-6 w-6 rounded-full" alt="" >
           <div class="font-bold font-mono text-lg ">Github</div>
         </a>

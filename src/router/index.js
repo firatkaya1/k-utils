@@ -6,6 +6,7 @@ import Button from '../views/Button.vue'
 import Pagination from '../views/Pagination.vue'
 import Chips from '../views/Chips.vue'
 import Navbar from '../views/Navbar.vue'
+import Progress from '../views/Progress.vue'
 
 const routes = [
     {
@@ -39,6 +40,10 @@ const routes = [
     {
       path:'/navbar',
       component:Navbar,
+    },
+    {
+      path:'/progress',
+      component:Progress,
     },
     {
       path: '/:pathMatch(.*)*',
