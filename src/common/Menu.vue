@@ -1,6 +1,6 @@
 <template>
     <div class="w-full h-16 lg:h-full bg-white lg:w-2/12 fixed lg:relative">
-      <div class="flex w-full lg:w-96 lg:border-r fixed top-0 left-0 h-screen font-mono flex flex-col ">
+      <div class="flex w-full lg:w-96 lg:border-r fixed top-0 left-0 lg:h-screen font-mono flex flex-col ">
         <h1 class="font-bold text-2xl flex flex-row p-4"> <img src="@/assets/K.png" class="w-6 h-6" alt="logo">-Utils </h1>
         <hr>
         <ul class="list-inside list-disc bg-rose-200 space-y-2 lg:mt-4 cursor-pointer  lg:block p-4 bg-white border-b lg:border-b-0  h-96" :class="{'hidden':!isMenuOpen}">
