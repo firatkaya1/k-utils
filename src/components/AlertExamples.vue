@@ -1007,7 +1007,6 @@ export default {
         ...mapMutations('notification',['pushNotification']),
         ...mapMutations('config',['setDetail']),
         copyToClipboard(event){
-            console.log(event.currentTarget.outerHTML)
             navigator.clipboard.writeText(event.currentTarget.outerHTML);
             this.pushNotification({ message:"Kopyalandı.",type:"success"})
             this.setDetail(event.currentTarget.outerHTML)
