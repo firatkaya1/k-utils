@@ -2,6 +2,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import store from './store'
 import "tailwindcss/tailwind.css"
+import VueHighlightJS from 'vue3-highlightjs'
+import 'highlight.js/styles/solarized-light.css'
+
 import router from './router'
 import TextSizePicker from './common/TextSizePicker.vue'
 import ColorPicker from './common/ColorPicker.vue'
@@ -10,12 +13,13 @@ import Result from './common/Result.vue'
 import BorderRadiusPicker from './common/BorderRadiusPicker.vue'
 import PageRouting from './common/PageRouting.vue'
 import NotificationList from './common/NotificationList.vue'
+import CodeViewer from './common/CodeViewer.vue'
 
 
 createApp(App)
     .use(router)
     .use(store)
-    
+    .use(VueHighlightJS)
     .component('ColorPicker',ColorPicker)
     .component('TextSizePicker',TextSizePicker)
     .component('FontPicker',FontPicker)
@@ -23,6 +27,7 @@ createApp(App)
     .component('Result',Result)
     .component('PageRouting',PageRouting)
     .component('NotificationList',NotificationList)
+    .component('CodeViewer',CodeViewer)
 
     .mount('#app')
 
