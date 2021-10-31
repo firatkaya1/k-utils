@@ -1004,11 +1004,8 @@ import { mapMutations } from 'vuex';
 export default {
     name:'AlertExamples',
     methods:{
-        ...mapMutations('notification',['pushNotification']),
         ...mapMutations('config',['setDetail']),
         copyToClipboard(event){
-            navigator.clipboard.writeText(event.currentTarget.outerHTML);
-            this.pushNotification({ message:"Kopyalandı.",type:"success"})
             this.setDetail(event.currentTarget.outerHTML)
         }
     }

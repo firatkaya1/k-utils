@@ -15,6 +15,9 @@ const mutations = {
     setDetail(state,body){
         state.detail.body = body
         state.detail.isOpen = true
+    },
+    updateDetailStatus(state){
+        state.detail.isOpen = !state.detail.isOpen
     }
  
 };

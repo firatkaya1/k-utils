@@ -2,7 +2,7 @@
   <div>
       <div class="container mx-auto mt-8 flex flex-col space-y-12 mb-48">
         <!-- Bootstrap tabanlı fakat TailwindCSS kullanılarak oluşturulan örnekler -->
-        <nav class="flex lg:flex-row flex-col w-full bg-gray-100 px-6 py-3 lg:rounded border">
+        <nav class="flex lg:flex-row flex-col w-full bg-gray-100 px-6 py-3 lg:rounded border" @click="copyToClipboard($event)">
             <div class="flex flex-row justify-between w-full">
 
                 <a class="flex text-lg font-bold my-auto" href="#">
@@ -65,7 +65,7 @@
             </div>
         </nav>
 
-        <nav class="flex lg:flex-row flex-col w-full bg-black px-6 py-3 lg:rounded border">
+        <nav class="flex lg:flex-row flex-col w-full bg-black px-6 py-3 lg:rounded border" @click="copyToClipboard($event)">
             <div class="flex flex-row justify-between w-full">
 
                 <a class="flex text-lg font-bold my-auto" href="#">
@@ -128,7 +128,7 @@
             </div>
         </nav>
 
-        <nav class="flex lg:flex-row flex-col w-full bg-red-300 px-6 py-3 lg:rounded border">
+        <nav class="flex lg:flex-row flex-col w-full bg-red-300 px-6 py-3 lg:rounded border" @click="copyToClipboard($event)">
             <div class="flex flex-row justify-between w-full">
 
                 <a class="flex text-lg font-bold my-auto" href="#">
@@ -191,7 +191,7 @@
             </div>
         </nav>
 
-        <nav class="flex lg:flex-row flex-col w-full bg-green-300 px-6 py-3 lg:rounded border">
+        <nav class="flex lg:flex-row flex-col w-full bg-green-300 px-6 py-3 lg:rounded border" @click="copyToClipboard($event)">
             <div class="flex flex-row justify-between w-full">
 
                 <a class="flex text-lg font-bold my-auto" href="#">
@@ -254,7 +254,7 @@
             </div>
         </nav>
 
-        <nav class="flex lg:flex-row flex-col w-full bg-blue-300 px-6 py-3 lg:rounded border">
+        <nav class="flex lg:flex-row flex-col w-full bg-blue-300 px-6 py-3 lg:rounded border" @click="copyToClipboard($event)">
             <div class="flex flex-row justify-between w-full">
 
                 <a class="flex text-lg font-bold my-auto" href="#">
@@ -317,7 +317,7 @@
             </div>
         </nav>
 
-        <nav class="flex lg:flex-row flex-col w-full bg-indigo-300 px-6 py-3 lg:rounded border">
+        <nav class="flex lg:flex-row flex-col w-full bg-indigo-300 px-6 py-3 lg:rounded border" @click="copyToClipboard($event)">
             <div class="flex flex-row justify-between w-full">
 
                 <a class="flex text-lg font-bold my-auto" href="#">
@@ -380,7 +380,7 @@
             </div>
         </nav>
 
-        <nav class="flex lg:flex-row flex-col w-full bg-gray-800 px-6 py-3 lg:rounded border">
+        <nav class="flex lg:flex-row flex-col w-full bg-gray-800 px-6 py-3 lg:rounded border" @click="copyToClipboard($event)">
             <div class="flex flex-row justify-between w-full">
 
                 <a class="flex text-lg font-bold my-auto" href="#">
@@ -443,7 +443,7 @@
             </div>
         </nav>
 
-        <nav class="flex lg:flex-row flex-col w-full bg-gray-100 px-6 py-3 lg:rounded border">
+        <nav class="flex lg:flex-row flex-col w-full bg-gray-100 px-6 py-3 lg:rounded border" @click="copyToClipboard($event)"  >
             <div class="flex flex-row justify-between w-full">
 
                 <a class="flex text-lg font-bold my-auto" href="#">
@@ -526,6 +526,7 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 export default {
     name:'Navbar',
     data(){
@@ -534,9 +535,14 @@ export default {
         }
     },
     methods:{
+        ...mapMutations('config',['setDetail']),
+        copyToClipboard(event){
+            this.setDetail(event.currentTarget.outerHTML)
+        },
         openMenu(){
             this.showNavbar = !this.showNavbar
         }
+
     }
 }
 </script>
