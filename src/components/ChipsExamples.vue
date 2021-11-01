@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-12 mb-48 lg:space-x-0 space-x-4 flex lg:block justify-between flex-wrap space-y-12">
+  <div class="container mx-auto mt-24 lg:space-x-0 space-x-4 flex lg:block justify-between flex-wrap space-y-12">
       <!-- Complete -->
       <div class="lg:flex inline-block flex-row flex-wrap space-y-4 lg:space-y-0 space-x-0 lg:space-x-4">
 

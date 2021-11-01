@@ -1,5 +1,5 @@
 <template>
-  <div class="container mb-48">
+  <div class="container mx-auto w-1/2 mb-48">
     <div class="flex flex-col space-y-4 ">  
       <h1 class="font-bold text-xl mt-12 pb-2"> Temel Örnekler </h1>
       <hr>
