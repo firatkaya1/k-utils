@@ -3,7 +3,7 @@
       <div class="flex w-full lg:border-r lg:h-screen font-mono flex flex-col ">
         <h1 class="font-bold text-2xl flex flex-row p-4"> <img src="@/assets/K.png" class="w-6 h-6" alt="logo">-Utils </h1>
         <hr>
-        <ul class="list-inside list-disc bg-rose-200 space-y-2 lg:mt-4 cursor-pointer  lg:block p-4 bg-white border-b lg:border-b-0  h-96" :class="{'hidden':!isMenuOpen}">
+        <ul class="list-inside list-disc bg-rose-200 space-y-2 lg:mt-4 cursor-pointer  lg:block p-4 bg-white border-b lg:border-b-0  h-96 text-sm" :class="{'hidden':!isMenuOpen}">
           <li>
             <router-link to="/home">Başlamadan önce</router-link>
           </li>
@@ -27,6 +27,9 @@
           </li>
           <li>
             <router-link to="/progress">Progress</router-link> 
+          </li>
+          <li>
+            <router-link to="/listgroup">List groups</router-link> 
           </li>
           <a href="https://github.com/firatkaya1/k-utils" target="_blank" class="mt-auto flex flex-row  space-x-4 hover:text-blue-600 cursor-pointer lg:hidden">
               <img src="@/assets/github.svg" class="h-6 w-6 rounded-full" alt="" >

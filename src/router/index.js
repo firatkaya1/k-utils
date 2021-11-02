@@ -7,6 +7,7 @@ import Pagination from '../views/Pagination.vue'
 import Chips from '../views/Chips.vue'
 import Navbar from '../views/Navbar.vue'
 import Progress from '../views/Progress.vue'
+import Listgroup from '../views/Listgroup.vue'
 
 const routes = [
     {
@@ -44,6 +45,10 @@ const routes = [
     {
       path:'/progress',
       component:Progress,
+    },
+    {
+      path:'/listgroup',
+      component:Listgroup,
     },
     {
       path: '/:pathMatch(.*)*',

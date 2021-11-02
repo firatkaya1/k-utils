@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <pre v-highlightjs="codes" class="w-full px-4 mx-auto border-l border-r border-gray-900 text-xs">
+        <pre v-highlightjs="codes" class="lg:w-3/4 w-full px-4 border-l border-r border-gray-900 text-xs">
             <code class="language-html">  </code>
         </pre>
 
@@ -32,7 +32,6 @@
 
             </div>
         </div>
-       
   </div>
 </template>
 
