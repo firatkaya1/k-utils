@@ -49,8 +49,8 @@
                 </ul>
             </nav>
             <span class="font-bold text-lg">Border With Colors</span>
-            <div class="flex flex-wrap space-y-4 space-x-4 ">
-                <nav class="block mt-4 ml-4">
+            <div class="flex flex-wrap space-y-4 lg:space-x-4 justify-center lg:justify-start">
+                <nav class="block mt-4 lg:ml-4">
                     <ul class="flex font-medium">
                         <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-gray-500 bg-white hover:text-gray-600 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
                         <li class="px-4 py-2 border hover:border-gray-500 bg-white hover:text-gray-500 cursor-pointer"><a href="#">1</a></li>
@@ -128,8 +128,8 @@
                     </ul>
                 </nav>
             </div>
-            <div class="flex flex-wrap space-y-4 space-x-4 ">
-                <nav class="block mt-4 ml-4">
+            <div class="flex flex-wrap space-y-4 lg:space-x-4 justify-center lg:justify-start">
+                <nav class="block mt-4 lg:ml-4">
                     <ul class="flex justify-center">
                         <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">Previous</a></li>
                         <li class="px-4 py-2 border text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>
@@ -207,8 +207,8 @@
                     </ul>
                 </nav>
             </div>
-            <div class="flex flex-wrap space-y-4 space-x-4 ">
-                <nav class="block mt-4 ml-4">
+            <div class="flex flex-wrap space-y-4 lg:space-x-4 justify-center lg:justify-start">
+                <nav class="block mt-4 lg:ml-4">
                     <ul class="flex font-medium">
                         <li class="px-4 py-2 border rounded-bl-md rounded-tl-md hover:border-gray-500 bg-white hover:text-gray-600 transition duration-300 cursor-pointer"><a href="#">«</a></li>
                         <li class="px-4 py-2 border hover:border-gray-500 bg-white hover:text-gray-500 cursor-pointer"><a href="#">1</a></li>
@@ -286,8 +286,8 @@
                     </ul>
                 </nav>
             </div>
-            <div class="flex flex-wrap space-y-4 space-x-4 ">
-                <nav class="block mt-4 ml-4">
+            <div class="flex flex-wrap space-y-4 lg:space-x-4 justify-center lg:justify-start">
+                <nav class="block mt-4 lg:ml-4">
                     <ul class="flex justify-center">
                         <li class="px-4 py-2 border rounded-bl-md rounded-tl-md text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">«</a></li>
                         <li class="px-4 py-2 border text-gray-600 hover:text-gray-400 bg-white hover:bg-gray-100 transition duration-300 cursor-pointer"><a href="#">1</a></li>

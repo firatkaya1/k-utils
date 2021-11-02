@@ -1,6 +1,6 @@
 <template>
-    <div class="container mx-auto mt-12">
-        <div class="flex lg:flex-row flex-col">
+    <div class="mx-auto mt-12">
+        <div class="flex flex-col lg:flex-row space-x-4">
             <!--Alert Bootstrap-->
             <div class="flex flex-col space-y-8  w-1/2">
                 <!--Alert Gray-->
@@ -796,8 +796,6 @@
                     <a href="#" class="text-sm text-pink-500 my-auto px-2 hover:underline hover:text-pink-800 transition duration-300">Details</a>
                 </div>
 
-                <div class="w-full border"></div>
-                <!-- Alert tick with dismiss -->
                 <!-- Alert Gray -->
                 <div class="flex flex-row h-auto px-2 py-4 rounded  bg-gray-100 " style="width: 36rem;" id="alert49" @click="copyToClipboard($event)">
                     <div>

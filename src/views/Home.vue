@@ -1,5 +1,5 @@
 <template>
-  <div class="container flex flex-col px-4 lg:px-2 mt-4 w-full lg:w-9/12 text-justify mb-48 ">
+  <div class="flex flex-col px-4 lg:px-2 mt-24 text-justify mb-48 xl:w-1/2 lg:w-1/2 2xl:w-1/3 w-full mx-auto">
     <h1 class="font-bold text-xl">Başlamadan Önce</h1>
     <hr class="my-4">
     <div class="mb-24 leading-10 font-mono text-sm">

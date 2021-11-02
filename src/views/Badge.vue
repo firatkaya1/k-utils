@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col px-2 mt-4 w-full">
-      <h1 class="font-bold text-xl">Badge Generator</h1>
+  <div class="flex flex-col px-4 lg:px-2 mt-24 lg:mt-24 text-justify mb-48 xl:w-1/2 lg:w-1/2 2xl:w-2/5 w-full mx-auto">
+      <h1 class="font-bold text-xl ">Badge Generator</h1>
       <div class="mb-24">
           Bu alanda kendinize ait özel bir badge üretebilirsiniz.
       </div>

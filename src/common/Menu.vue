@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed z-50 flex-none h-24 bg-white w-full lg:bg-white lg:fixed lg:h-auto lg:overflow-y-visible lg:pt-0 lg:w-60 xl:w-72  ">
+    <div class="fixed z-50 top-0 flex-none h-auto bg-white w-full lg:bg-white lg:fixed lg:h-auto lg:overflow-y-visible lg:pt-0 lg:w-60 xl:w-72  ">
       <div class="flex w-full lg:border-r lg:h-screen font-mono flex flex-col ">
         <h1 class="font-bold text-2xl flex flex-row p-4"> <img src="@/assets/K.png" class="w-6 h-6" alt="logo">-Utils </h1>
         <hr>
