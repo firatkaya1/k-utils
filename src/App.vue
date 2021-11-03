@@ -5,6 +5,7 @@
       <router-view></router-view>
     </div>
     <NotificationList/>
+    <CodeEditor />
     <CodeViewer/>
   </div>
 </template>

@@ -89,6 +89,15 @@
           <label class="font-mono line-through text-green-500">
             <input type="checkbox" class="transform scale-150" checked disabled> Chips
           </label>
+          <label class="font-mono line-through text-green-500">
+            <input type="checkbox" class="transform scale-150" checked disabled> Navbars
+          </label>
+          <label class="font-mono line-through text-green-500">
+            <input type="checkbox" class="transform scale-150" checked disabled> Progress
+          </label>
+          <label class="font-mono line-through text-green-500">
+            <input type="checkbox" class="transform scale-150" checked disabled> List  groups
+          </label>
           <label class="font-mono ">
             <input type="checkbox" class="transform scale-150"> Inputs
           </label>
@@ -97,9 +106,6 @@
           </label>
           <label class="font-mono ">
             <input type="checkbox" class="transform scale-150"> Toast
-          </label>
-          <label class="font-mono ">
-            <input type="checkbox" class="transform scale-150"> Navbars
           </label>
         </div>
     </div>

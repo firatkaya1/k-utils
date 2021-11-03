@@ -14,6 +14,7 @@ import BorderRadiusPicker from './common/BorderRadiusPicker.vue'
 import PageRouting from './common/PageRouting.vue'
 import NotificationList from './common/NotificationList.vue'
 import CodeViewer from './common/CodeViewer.vue'
+import CodeEditor from './common/CodeEditor.vue'
 
 
 createApp(App)
@@ -28,6 +29,7 @@ createApp(App)
     .component('PageRouting',PageRouting)
     .component('NotificationList',NotificationList)
     .component('CodeViewer',CodeViewer)
+    .component('CodeEditor',CodeEditor)
 
     .mount('#app')
 

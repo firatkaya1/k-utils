@@ -330,7 +330,7 @@ export default {
     methods:{
         ...mapMutations('config',['setDetail']),
         copyToClipboard(event){
-            this.setDetail(event.currentTarget.outerHTML)
+            this.setDetail({body:event.currentTarget.outerHTML,title:'Buttons'})
         }
     }
 

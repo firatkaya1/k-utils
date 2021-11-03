@@ -211,7 +211,7 @@ export default {
     methods:{
         ...mapMutations('config',['setDetail']),
         openCodeViewer(event){
-            this.setDetail(event.currentTarget.outerHTML)
+            this.setDetail({body:event.currentTarget.outerHTML,title:'List group'})
         }
     }
 }
