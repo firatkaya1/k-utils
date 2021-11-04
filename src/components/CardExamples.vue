@@ -203,7 +203,16 @@
                 </div>
             </div>
         </div>
-        
+        <h1> Basic 5 </h1>
+        <div class="flex flex-col">
+            <div class="border rounded-md divide-y-2 divide-gray-200" style="max-width: 18rem;">
+                <div class="px-3 py-2 text-gray-800 bg-gray-100">Header</div>
+                <div class="p-3 bg-gray-50 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold">Primary card title</h5>
+                    <p class="text-sm py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
