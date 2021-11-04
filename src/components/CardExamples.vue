@@ -204,15 +204,220 @@
             </div>
         </div>
         <h1> Basic 5 </h1>
-        <div class="flex flex-col">
-            <div class="border rounded-md divide-y-2 divide-gray-200" style="max-width: 18rem;">
+        <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-4 lg:space-x-4 space-x-0 flex-wrap">
+            <div class="border rounded-md divide-y-2 divide-gray-200 mt-4 ml-4" style="max-width: 18rem;">
                 <div class="px-3 py-2 text-gray-800 bg-gray-100">Header</div>
-                <div class="p-3 bg-gray-50 rounded-br-md rounded-bl-md">
+                <div class="px-3 py-4 bg-gray-50 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold">Primary card title</h5>
+                    <p class="text-sm py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border border-red-600 rounded-md divide-y-2 divide-red-600" style="max-width: 18rem;">
+                <div class="px-3 py-2 text-white bg-red-500">Header</div>
+                <div class="px-3 py-4 bg-red-500 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold text-white">Primary card title</h5>
+                    <p class="text-sm py-1 text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border border-yellow-600 rounded-md divide-y-2 divide-yellow-600" style="max-width: 18rem;">
+                <div class="px-3 py-2 text-white bg-yellow-500">Header</div>
+                <div class="px-3 py-4 bg-yellow-500 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold text-white">Primary card title</h5>
+                    <p class="text-sm py-1 text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border border-green-600 rounded-md divide-y-2 divide-green-600" style="max-width: 18rem;">
+                <div class="px-3 py-2 text-white bg-green-500">Header</div>
+                <div class="px-3 py-4 bg-green-500 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold text-white">Primary card title</h5>
+                    <p class="text-sm py-1 text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border border-blue-600 rounded-md divide-y-2 divide-blue-600" style="max-width: 18rem;">
+                <div class="px-3 py-2 text-white bg-blue-500">Header</div>
+                <div class="px-3 py-4 bg-blue-500 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold text-white">Primary card title</h5>
+                    <p class="text-sm py-1 text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border border-indigo-600 rounded-md divide-y-2 divide-indigo-600" style="max-width: 18rem;">
+                <div class="px-3 py-2 text-white bg-indigo-500">Header</div>
+                <div class="px-3 py-4 bg-indigo-500 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold text-white">Primary card title</h5>
+                    <p class="text-sm py-1 text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border border-purple-600 rounded-md divide-y-2 divide-purple-600" style="max-width: 18rem;">
+                <div class="px-3 py-2 text-white bg-purple-500">Header</div>
+                <div class="px-3 py-4 bg-purple-500 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold text-white">Primary card title</h5>
+                    <p class="text-sm py-1 text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border border-pink-600 rounded-md divide-y-2 divide-pink-600" style="max-width: 18rem;">
+                <div class="px-3 py-2 text-white bg-pink-500">Header</div>
+                <div class="px-3 py-4 bg-pink-500 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold text-white">Primary card title</h5>
+                    <p class="text-sm py-1 text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border border-gray-600 rounded-md divide-y-2 divide-gray-600" style="max-width: 18rem;">
+                <div class="px-3 py-2 text-white bg-black">Header</div>
+                <div class="px-3 py-4 bg-black rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold text-white">Primary card title</h5>
+                    <p class="text-sm py-1 text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <h1> Basic 6 </h1>
+        <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-4 lg:space-x-4 space-x-0 flex-wrap">
+            <div class="border border-gray-200 bg-white rounded-md divide-y-2 divide-gray-200 mt-4 ml-4" style="max-width: 18rem;">
+                <div class="px-3 py-2 text-gray-800 ">Header</div>
+                <div class="px-3 py-4 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold">Primary card title</h5>
+                    <p class="text-sm py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border bg-white border-red-600 text-red-600 rounded-md divide-y-2 divide-red-600" style="max-width: 18rem;">
+                <div class="px-3 py-2">Header</div>
+                <div class="px-3 py-4 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold">Primary card title</h5>
+                    <p class="text-sm py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border bg-white border-yellow-600 text-yellow-600 rounded-md divide-y-2 divide-yellow-600" style="max-width: 18rem;">
+                <div class="px-3 py-2">Header</div>
+                <div class="px-3 py-4 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold">Primary card title</h5>
+                    <p class="text-sm py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border bg-white border-green-600 text-green-600 rounded-md divide-y-2 divide-green-600" style="max-width: 18rem;">
+                <div class="px-3 py-2">Header</div>
+                <div class="px-3 py-4 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold">Primary card title</h5>
+                    <p class="text-sm py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border bg-white border-blue-600 text-blue-600 rounded-md divide-y-2 divide-blue-600" style="max-width: 18rem;">
+                <div class="px-3 py-2">Header</div>
+                <div class="px-3 py-4 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold">Primary card title</h5>
+                    <p class="text-sm py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border bg-white border-indigo-600 text-indigo-600 rounded-md divide-y-2 divide-indigo-600" style="max-width: 18rem;">
+                <div class="px-3 py-2">Header</div>
+                <div class="px-3 py-4 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold">Primary card title</h5>
+                    <p class="text-sm py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border bg-white border-purple-600 text-purple-600 rounded-md divide-y-2 divide-purple-600" style="max-width: 18rem;">
+                <div class="px-3 py-2">Header</div>
+                <div class="px-3 py-4 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold">Primary card title</h5>
+                    <p class="text-sm py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border bg-white border-pink-600 text-pink-600 rounded-md divide-y-2 divide-pink-600" style="max-width: 18rem;">
+                <div class="px-3 py-2">Header</div>
+                <div class="px-3 py-4 rounded-br-md rounded-bl-md">
+                    <h5 class="text-lg font-semibold">Primary card title</h5>
+                    <p class="text-sm py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border bg-white border-black text-black rounded-md divide-y-2 divide-black" style="max-width: 18rem;">
+                <div class="px-3 py-2">Header</div>
+                <div class="px-3 py-4 rounded-br-md rounded-bl-md">
                     <h5 class="text-lg font-semibold">Primary card title</h5>
                     <p class="text-sm py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
         </div>
+        <h1> Basic 7 </h1>
+        <div class="flex flex-col space-y-12">
+            <div class="flex flex flex-col p-5 rounded-md lg:w-3/4 mx-auto border-t-4 border-gray-500 shadow-lg">
+                <h1 class="font-bold text-gray-700 text-xl my-2"> Title of whatever </h1>
+                <p class="text-gray-500">
+                    Write here what you want. Write here what you want. Write here what you want. Write here what you want. Write here what you want.
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 self-end border rounded-full p-2 fill-current text-gray-500 border-gray-500 bg-gray-200" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>
+            </div>
+            <div class="flex flex flex-col p-5 rounded-md lg:w-3/4 mx-auto border-t-4 border-red-500 shadow-lg">
+                <h1 class="font-bold text-gray-700 text-xl my-2"> Title of whatever </h1>
+                <p class="text-gray-500">
+                    Write here what you want. Write here what you want. Write here what you want. Write here what you want. Write here what you want.
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 self-end border rounded-full p-2 fill-current text-red-500 border-red-500 bg-red-200" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>
+            </div>
+
+            <div class="flex flex flex-col p-5 rounded-md lg:w-3/4 mx-auto border-t-4 border-yellow-500 shadow-lg">
+                <h1 class="font-bold text-gray-700 text-xl my-2"> Title of whatever </h1>
+                <p class="text-gray-500">
+                    Write here what you want. Write here what you want. Write here what you want. Write here what you want. Write here what you want.
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 self-end border rounded-full p-2 fill-current text-yellow-500 border-yellow-500 bg-yellow-200" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>
+            </div>
+
+            <div class="flex flex flex-col p-5 rounded-md lg:w-3/4 mx-auto border-t-4 border-green-500 shadow-lg">
+                <h1 class="font-bold text-gray-700 text-xl my-2"> Title of whatever </h1>
+                <p class="text-gray-500">
+                    Write here what you want. Write here what you want. Write here what you want. Write here what you want. Write here what you want.
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 self-end border rounded-full p-2 fill-current text-green-500 border-green-500 bg-green-200" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>
+            </div>
+
+            <div class="flex flex flex-col p-5 rounded-md lg:w-3/4 mx-auto border-t-4 border-blue-500 shadow-lg">
+                <h1 class="font-bold text-gray-700 text-xl my-2"> Title of whatever </h1>
+                <p class="text-gray-500">
+                    Write here what you want. Write here what you want. Write here what you want. Write here what you want. Write here what you want.
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 self-end border rounded-full p-2 fill-current text-blue-500 border-blue-500 bg-blue-200" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>
+            </div>
+
+            <div class="flex flex flex-col p-5 rounded-md lg:w-3/4 mx-auto border-t-4 border-indigo-500 shadow-lg">
+                <h1 class="font-bold text-gray-700 text-xl my-2"> Title of whatever </h1>
+                <p class="text-gray-500">
+                    Write here what you want. Write here what you want. Write here what you want. Write here what you want. Write here what you want.
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 self-end border rounded-full p-2 fill-current text-indigo-500 border-indigo-500 bg-indigo-200" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>
+            </div>
+
+            <div class="flex flex flex-col p-5 rounded-md lg:w-3/4 mx-auto border-t-4 border-purple-500 shadow-lg">
+                <h1 class="font-bold text-gray-700 text-xl my-2"> Title of whatever </h1>
+                <p class="text-gray-500">
+                    Write here what you want. Write here what you want. Write here what you want. Write here what you want. Write here what you want.
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 self-end border rounded-full p-2 fill-current text-purple-500 border-purple-500 bg-purple-200" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>
+            </div>
+
+            <div class="flex flex flex-col p-5 rounded-md lg:w-3/4 mx-auto border-t-4 border-pink-500 shadow-lg">
+                <h1 class="font-bold text-gray-700 text-xl my-2"> Title of whatever </h1>
+                <p class="text-gray-500">
+                    Write here what you want. Write here what you want. Write here what you want. Write here what you want. Write here what you want.
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 self-end border rounded-full p-2 fill-current text-pink-500 border-pink-500 bg-pink-200" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>
+            </div>
+
+        </div>
+
     </div>
 </template>
 
