@@ -31,6 +31,9 @@
           <li>
             <router-link to="/listgroup">List groups</router-link> 
           </li>
+          <li>
+            <router-link to="/card">Card</router-link> 
+          </li>
           <a href="https://github.com/firatkaya1/k-utils" target="_blank" class="mt-auto flex flex-row  space-x-4 hover:text-blue-600 cursor-pointer lg:hidden">
               <img src="@/assets/github.svg" class="h-6 w-6 rounded-full" alt="" >
               <div class="font-bold font-mono text-lg ">Github</div>

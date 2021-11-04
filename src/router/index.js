@@ -8,6 +8,7 @@ import Chips from '../views/Chips.vue'
 import Navbar from '../views/Navbar.vue'
 import Progress from '../views/Progress.vue'
 import Listgroup from '../views/Listgroup.vue'
+import Card from '../views/Card.vue'
 
 const routes = [
     {
@@ -49,6 +50,10 @@ const routes = [
     {
       path:'/listgroup',
       component:Listgroup,
+    },
+    {
+      path:'/card',
+      component:Card,
     },
     {
       path: '/:pathMatch(.*)*',
