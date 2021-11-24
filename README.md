@@ -42,14 +42,14 @@ Burada mevcut eklenen yenilikleri ve eklenecek yenilikleri görebilirsiniz. Eğe
 
 
 - [x] Badge
-- [ ] Alerts
-- [ ] Buttons
-- [ ] Pagination
-- [ ] Chips
-- [ ] Inputs
-- [ ] Cards
+- [x] Alerts
+- [x] Buttons
+- [x] Pagination
+- [x] Chips
+- [x] Inputs
+- [x] Cards
 - [ ] Toast
-- [ ] Navbars
+- [x] Navbars
 
 ### 
 
